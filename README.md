@@ -6,6 +6,7 @@ Interactive dashboard of every Pearson Edexcel International GCSE Accounting (4A
 
 - `index.html` — single-file dashboard (filters, heatmap, topic ranking, command-word tally, question browser, PDF extraction)
 - `4AC01_Papers/` — the 42 source question papers as PDFs, read by the extraction feature
+- `anchors.json` — pixel positions of every question number, sub-part label and question end on the scanned pages (Tesseract OCR), used to cut individual sub-parts
 
 Built for **Vertical Horizon · ACCOUNTING by TAK**, Dhaka.
 Question papers © Pearson Education Ltd; reproduced for teaching use.
