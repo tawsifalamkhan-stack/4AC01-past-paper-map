@@ -1,0 +1,5116 @@
+[
+ {
+  "id": "2019-MAY-Q1",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Which document is sent to credit customers at the end of each month?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Remittance advice",
+   "C": "Sales invoice",
+   "D": "Statement of account"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A statement of account is sent at the end of each month summarising invoices, credit notes and payments, and showing the balance owed."
+ },
+ {
+  "id": "2019-MAY-Q2",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "In which book of original entry are irrecoverable debts recorded?"
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Journal",
+   "C": "Purchases day book",
+   "D": "Sales day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Writing off an irrecoverable debt is a non-routine transfer, so it is recorded first in the journal."
+ },
+ {
+  "id": "2019-MAY-Q3",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "In which book of original entry will a trader record an invoice received?"
+  ],
+  "options": {
+   "A": "Purchases day book",
+   "B": "Purchases returns day book",
+   "C": "Sales day book",
+   "D": "Sales returns day book"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "An invoice received is a credit purchase, so it is recorded in the purchases day book."
+ },
+ {
+  "id": "2019-MAY-Q4",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Which one of the following is a reason for offering a cash discount?"
+  ],
+  "options": {
+   "A": "Bulk buying",
+   "B": "Paying in cash",
+   "C": "Prompt payment",
+   "D": "Repeat business"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Cash discount rewards prompt payment. Bulk buying and repeat business are reasons for trade discount."
+ },
+ {
+  "id": "2019-MAY-Q5",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Ben records motor vehicle expenses in the motor vehicle account in error.",
+   "What type of error is this?"
+  ],
+  "options": {
+   "A": "Commission",
+   "B": "Complete reversal",
+   "C": "Original entry",
+   "D": "Principle"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "Revenue expenditure (motor expenses) posted to a capital account (motor vehicles) is an error of principle."
+ },
+ {
+  "id": "2019-MAY-Q6",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Which transaction is capital expenditure?"
+  ],
+  "options": {
+   "A": "Disposal of a computer",
+   "B": "Installation of air conditioning",
+   "C": "Repainting of the building",
+   "D": "Repairs to air conditioning"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Capital & revenue expenditure",
+  "topic_code": "CRE",
+  "explanation": "Installing air conditioning adds a new asset, so it is capital expenditure. Repainting and repairs are revenue expenditure."
+ },
+ {
+  "id": "2019-MAY-Q7",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Which one of the following is an accounting concept?"
+  ],
+  "options": {
+   "A": "Comparability",
+   "B": "Materiality",
+   "C": "Objectivity",
+   "D": "Understandability"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Materiality is an accounting concept. Comparability, objectivity and understandability are qualitative characteristics."
+ },
+ {
+  "id": "2019-MAY-Q8",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Which statement is incorrect?"
+  ],
+  "options": {
+   "A": "Assets = Liabilities + Capital",
+   "B": "Capital = Assets - Liabilities",
+   "C": "Capital - Liabilities = Assets",
+   "D": "Liabilities = Assets - Capital"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Assets = Liabilities + Capital, so Assets = Capital + Liabilities, not Capital − Liabilities."
+ },
+ {
+  "id": "2019-MAY-Q9",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Soha purchased stationery for her business using her own money.",
+   "What is the entry in the business’s books?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Cash",
+     "Stationery"
+    ],
+    "B": [
+     "Equity",
+     "Stationery"
+    ],
+    "C": [
+     "Stationery",
+     "Cash"
+    ],
+    "D": [
+     "Stationery",
+     "Equity"
+    ]
+   }
+  },
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "The business gains stationery (debit Stationery) and the owner has put more into the business (credit Equity)."
+ },
+ {
+  "id": "2019-MAY-Q10",
+  "paper": "2019_MAY_QP_4AC1_1",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "What is indicated when a business’s bank statement shows a debit balance?"
+  ],
+  "options": {
+   "A": "Bank is a creditor to the business",
+   "B": "Bank is a debtor to the business",
+   "C": "Bank made payment by credit transfer",
+   "D": "Bank received payment by credit transfer"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "A debit balance on the bank statement is an overdraft: the business owes the bank, so the bank is its creditor."
+ },
+ {
+  "id": "2019-MAY-R-Q1",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 1,
+  "stem": [
+   "A business buys goods for cash.",
+   "What are the entries in the books of the purchaser?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Cash",
+     "Purchases"
+    ],
+    "B": [
+     "Cash",
+     "Supplier"
+    ],
+    "C": [
+     "Purchases",
+     "Cash"
+    ],
+    "D": [
+     "Supplier",
+     "Cash"
+    ]
+   }
+  },
+  "answer": "C",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Purchases increase (debit Purchases) and cash decreases (credit Cash)."
+ },
+ {
+  "id": "2019-MAY-R-Q2",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 2,
+  "stem": [
+   "Which of the following is recorded on the credit side of a trade payables ledger control account?"
+  ],
+  "options": {
+   "A": "Credit purchases",
+   "B": "Discount received",
+   "C": "Payments to trade payables",
+   "D": "Purchases returns"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "Credit purchases increase the amount owed to suppliers, so they go on the credit side. The other three reduce payables (debit side)."
+ },
+ {
+  "id": "2019-MAY-R-Q3",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 3,
+  "stem": [
+   "Where would the purchase of a motor vehicle on credit be recorded?"
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Journal",
+   "C": "Petty cash book",
+   "D": "Purchases day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "A non-current asset bought on credit is not a goods purchase, so it is recorded in the journal."
+ },
+ {
+  "id": "2019-MAY-R-Q4",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 4,
+  "stem": [
+   "In which book of original entry will credit notes received be recorded?"
+  ],
+  "options": {
+   "A": "Purchases book",
+   "B": "Purchases return book",
+   "C": "Sales book",
+   "D": "Sales returns book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Credit notes received relate to goods returned to suppliers, so they go in the purchases returns book."
+ },
+ {
+  "id": "2019-MAY-R-Q5",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 5,
+  "stem": [
+   "What is the main purpose of providing for depreciation on non-current assets?"
+  ],
+  "options": {
+   "A": "To provide funds for the replacement of the asset",
+   "B": "To show the market value of the asset",
+   "C": "To show when the asset should be replaced",
+   "D": "To spread the cost of the asset over its useful life"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "Depreciation spreads the cost of the asset over its useful life (matching). It does not create a fund or show market value."
+ },
+ {
+  "id": "2019-MAY-R-Q6",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 6,
+  "stem": [
+   "A trader sells goods with a list price of $9 000 on credit. The trader offers his customers a trade discount of 20% and a cash discount of 5%.",
+   "What amount will be recorded in the trader’s sales book?"
+  ],
+  "options": {
+   "A": "$6 840",
+   "B": "$7 200",
+   "C": "$8 550",
+   "D": "$9 000"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Sales book records the net invoice value after trade discount: $9 000 × 80% = $7 200. Cash discount is ignored until payment."
+ },
+ {
+  "id": "2019-MAY-R-Q7",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 7,
+  "stem": [
+   "A cash book has a discounts column on the credit side. Where is the total of this column posted?"
+  ],
+  "options": {
+   "A": "Credit discount allowed account",
+   "B": "Credit discount received account",
+   "C": "Debit discount allowed account",
+   "D": "Debit discount received account"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Credit-side discounts in the cash book are discounts received; the total is posted to the credit of discount received account."
+ },
+ {
+  "id": "2019-MAY-R-Q8",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 8,
+  "stem": [
+   "Which account will partnership drawings be debited to?"
+  ],
+  "options": {
+   "A": "Appropriation",
+   "B": "Bank",
+   "C": "Capital",
+   "D": "Current"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Partnerships",
+  "topic_code": "PART",
+  "explanation": "Partners' drawings are debited to their current accounts."
+ },
+ {
+  "id": "2019-MAY-R-Q9",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 9,
+  "stem": [
+   "What are the entries to record interest on a partner’s loan?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Appropriation",
+     "Current"
+    ],
+    "B": [
+     "Current",
+     "Appropriation"
+    ],
+    "C": [
+     "Current",
+     "Income statement"
+    ],
+    "D": [
+     "Income statement",
+     "Current"
+    ]
+   }
+  },
+  "answer": "D",
+  "topic": "Partnerships",
+  "topic_code": "PART",
+  "explanation": "Interest on a partner's loan is an expense: debit income statement, credit the partner's current account."
+ },
+ {
+  "id": "2019-MAY-R-Q10",
+  "paper": "2019_MAY_QP_4AC1_1R",
+  "year": 2019,
+  "month": "MAY",
+  "series": "May/June 2019",
+  "variant": "R",
+  "q": 10,
+  "stem": [
+   "A business keeps a petty cash book with a float of $200.",
+   "During the month the total expenses paid from petty cash were $160.",
+   "What amount was required to restore the float?"
+  ],
+  "options": {
+   "A": "$40",
+   "B": "$160",
+   "C": "$200",
+   "D": "$360"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Imprest system: the amount spent ($160) is reimbursed to bring the float back to $200."
+ },
+ {
+  "id": "2020-JAN-Q1",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Where would the account of a credit supplier be found?"
+  ],
+  "options": {
+   "A": "Payables ledger",
+   "B": "Purchases returns book",
+   "C": "Receivables ledger",
+   "D": "Sales day book"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Credit suppliers' personal accounts are kept in the payables (purchases) ledger."
+ },
+ {
+  "id": "2020-JAN-Q2",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Which one of the following source documents would show bank interest?"
+  ],
+  "options": {
+   "A": "Bank statement",
+   "B": "Cheque counterfoil",
+   "C": "Credit note",
+   "D": "Invoice"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "Bank interest is charged by the bank and first appears on the bank statement."
+ },
+ {
+  "id": "2020-JAN-Q3",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Which will be recorded on the debit side of a trade receivables ledger control account?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Discount allowed",
+   "C": "Irrecoverable debt",
+   "D": "Returned cheque"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "A dishonoured (returned) cheque restores the debt, so it is debited. Credit notes, discounts and bad debts are credits."
+ },
+ {
+  "id": "2020-JAN-Q4",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Inventory should be valued at the lower of cost or net realisable value.",
+   "Which accounting concept is this an application of?"
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Valuing inventory at the lower of cost and NRV avoids overstating assets and profit: prudence."
+ },
+ {
+  "id": "2020-JAN-Q5",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Where is the total of the discount column on the credit side of a three-column cash book posted?"
+  ],
+  "options": {
+   "A": "Credit discounts allowed",
+   "B": "Credit discounts received",
+   "C": "Debit discounts allowed",
+   "D": "Debit discounts received"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Credit-side discount column = discount received; the total is credited to discounts received account."
+ },
+ {
+  "id": "2020-JAN-Q6",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Which one of the following is not a principle of professional ethics?"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Materiality",
+   "D": "Objectivity"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Materiality is an accounting concept. Confidentiality, integrity and objectivity are ethical principles."
+ },
+ {
+  "id": "2020-JAN-Q7",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Which one of the following errors would require a correcting entry in a suspense account?"
+  ],
+  "options": {
+   "A": "Credit note entered twice in the books of account",
+   "B": "Incorrect addition of the total column of the sales day book",
+   "C": "Payment for stationery posted to office equipment",
+   "D": "Sales invoice not entered in the books of account"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "An incorrect sales day book total puts a wrong figure in the sales account only, so the trial balance will not agree and suspense is needed."
+ },
+ {
+  "id": "2020-JAN-Q8",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Seth has $15 left in the petty cash box and vouchers totalling $25",
+   "How much does Seth need to restore the imprest?"
+  ],
+  "options": {
+   "A": "$10",
+   "B": "$15",
+   "C": "$25",
+   "D": "$40"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "The float is restored by the amount spent, which equals the vouchers: $25."
+ },
+ {
+  "id": "2020-JAN-Q9",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "A trader withdraws cash from the bank for his own use.",
+   "Which one of the following is the correct entry for this transaction?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Bank",
+     "Drawings"
+    ],
+    "B": [
+     "Cash",
+     "Drawings"
+    ],
+    "C": [
+     "Drawings",
+     "Bank"
+    ],
+    "D": [
+     "Drawings",
+     "Cash"
+    ]
+   }
+  },
+  "answer": "C",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Drawings increase (debit Drawings) and the bank balance falls (credit Bank)."
+ },
+ {
+  "id": "2020-JAN-Q10",
+  "paper": "2020_JAN_QP_4AC1_1",
+  "year": 2020,
+  "month": "JAN",
+  "series": "January 2020",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "Which one of the following shows the effects of omitting the depreciation charged?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Non-current assets",
+    "Profit for the year"
+   ],
+   "rows": {
+    "A": [
+     "Overstated",
+     "Overstated"
+    ],
+    "B": [
+     "Overstated",
+     "Understated"
+    ],
+    "C": [
+     "Understated",
+     "Overstated"
+    ],
+    "D": [
+     "Understated",
+     "Understated"
+    ]
+   }
+  },
+  "answer": "A",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "Without depreciation, expenses are too low and assets too high: both non-current assets and profit are overstated."
+ },
+ {
+  "id": "2020-NOV-Q1",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Which document issued by the seller summarises the transactions for the month?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Purchase invoice",
+   "C": "Sales invoice",
+   "D": "Statement of account"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "The statement of account issued by the seller summarises the month's transactions and the balance due."
+ },
+ {
+  "id": "2020-NOV-Q2",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Which is not an accounting concept?"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Confidentiality",
+   "C": "Consistency",
+   "D": "Materiality"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Confidentiality is an ethical principle, not an accounting concept."
+ },
+ {
+  "id": "2020-NOV-Q3",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Which of these accounts always has a credit balance?"
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Carriage outwards",
+   "C": "Discount allowed",
+   "D": "Discount received"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Discount received is income, so it always has a credit balance. The others are expenses."
+ },
+ {
+  "id": "2020-NOV-Q4",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Which accounts are maintained in the payables ledger?"
+  ],
+  "options": {
+   "A": "Creditors",
+   "B": "Debtors",
+   "C": "Purchases",
+   "D": "Sales"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The payables ledger holds the personal accounts of creditors (credit suppliers)."
+ },
+ {
+  "id": "2020-NOV-Q5",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Which statement is incorrect?"
+  ],
+  "options": {
+   "A": "Assets = liabilities + capital",
+   "B": "Capital = assets – liabilities",
+   "C": "Capital – liabilities = assets",
+   "D": "Liabilities = assets – capital"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Capital − liabilities does not equal assets; assets = capital + liabilities."
+ },
+ {
+  "id": "2020-NOV-Q6",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Which should be entered on the credit side of the trade receivables control account?"
+  ],
+  "options": {
+   "A": "Credit sales",
+   "B": "Discount allowed",
+   "C": "Interest charged",
+   "D": "Returns outwards"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "Discount allowed reduces what customers owe, so it is credited. Credit sales and interest charged are debits."
+ },
+ {
+  "id": "2020-NOV-Q7",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "What is the effect if capital expenditure is treated as revenue expenditure?"
+  ],
+  "options": {
+   "A": "Gross profit overstated",
+   "B": "Gross profit understated",
+   "C": "Profit for the year overstated",
+   "D": "Profit for the year understated"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Capital & revenue expenditure",
+  "topic_code": "CRE",
+  "explanation": "Capital expenditure treated as an expense overstates expenses, so profit for the year is understated."
+ },
+ {
+  "id": "2020-NOV-Q8",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Identify when a customer would receive a cash discount."
+  ],
+  "options": {
+   "A": "Bulk purchases",
+   "B": "Payment made by cash",
+   "C": "Payment made within agreed time",
+   "D": "Regular purchases"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Cash discount is given for payment within the agreed time."
+ },
+ {
+  "id": "2020-NOV-Q9",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Where is the total of the discount column on the debit side of a three-column cash book posted?"
+  ],
+  "options": {
+   "A": "Credit discount allowed",
+   "B": "Credit discount received",
+   "C": "Debit discount allowed",
+   "D": "Debit discount received"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Debit-side discount column = discount allowed; the total is debited to discount allowed account."
+ },
+ {
+  "id": "2020-NOV-Q10",
+  "paper": "2020_NOV_QP_4AC1_1",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "What is the effect when a trader does not account for rent paid in advance?"
+  ],
+  "options": {
+   "A": "Gross profit overstated",
+   "B": "Gross profit understated",
+   "C": "Other receivables overstated",
+   "D": "Other receivables understated"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Rent paid in advance is an other receivable; ignoring it understates other receivables (and profit)."
+ },
+ {
+  "id": "2020-NOV-R-Q1",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 1,
+  "stem": [
+   "Which account has a credit balance?"
+  ],
+  "options": {
+   "A": "Discount allowed",
+   "B": "Discount received",
+   "C": "Purchases",
+   "D": "Sales returns"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Discount received is income, so it has a credit balance."
+ },
+ {
+  "id": "2020-NOV-R-Q2",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 2,
+  "stem": [
+   "The skills and knowledge of a workforce is not shown as an asset in the financial statements.",
+   "Which accounting concept is being applied?"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Money measurement"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Workforce skills cannot be measured reliably in money, so they are not recorded: money measurement."
+ },
+ {
+  "id": "2020-NOV-R-Q3",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 3,
+  "stem": [
+   "A business always uses the reducing balance method of depreciation.",
+   "Which accounting concept is being applied?"
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Using the same method each year is consistency."
+ },
+ {
+  "id": "2020-NOV-R-Q4",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 4,
+  "stem": [
+   "Which statement is incorrect?"
+  ],
+  "options": {
+   "A": "Assets = liabilities + capital",
+   "B": "Capital = assets − liabilities",
+   "C": "Capital − liabilities = assets",
+   "D": "Liabilities = assets − capital"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Capital − liabilities ≠ assets; the correct form is capital + liabilities = assets."
+ },
+ {
+  "id": "2020-NOV-R-Q5",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 5,
+  "stem": [
+   "In which book of original entry should the correction of an error be made?"
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Journal",
+   "C": "Purchases day book",
+   "D": "Purchases returns day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Corrections of errors are recorded first in the journal."
+ },
+ {
+  "id": "2020-NOV-R-Q6",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 6,
+  "stem": [
+   "Which business document contains details of purchases, returns and payments?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Debit note",
+   "C": "Invoice",
+   "D": "Statement"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A statement lists purchases (invoices), returns (credit notes) and payments, with the closing balance."
+ },
+ {
+  "id": "2020-NOV-R-Q7",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 7,
+  "stem": [
+   "Which is recorded on the credit side of a trade payables ledger control account?"
+  ],
+  "options": {
+   "A": "Discounts received",
+   "B": "Contra to trade receivables ledger",
+   "C": "Interest charged by supplier",
+   "D": "Purchases returns"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "Interest charged by a supplier increases the amount owed, so it is credited. The rest are debits."
+ },
+ {
+  "id": "2020-NOV-R-Q8",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 8,
+  "stem": [
+   "Where would an expense paid in advance be shown?"
+  ],
+  "options": {
+   "A": "Current assets: Other payables",
+   "B": "Current liabilities: Other payables",
+   "C": "Current asset: Other receivables",
+   "D": "Current liabilities: Other receivables"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "An expense paid in advance is a prepayment: a current asset shown under other receivables."
+ },
+ {
+  "id": "2020-NOV-R-Q9",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 9,
+  "stem": [
+   "Which error would be disclosed by the preparation of a trial balance?"
+  ],
+  "options": {
+   "A": "Purchase of goods on credit, $290, omitted from the books",
+   "B": "Receipt of a cheque from Jones, $56, entered in the account of James as $65",
+   "C": "Sale of goods on credit for $350 entered on both sides of the ledger as $250",
+   "D": "Wages account and revenue account both overcast by $100"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "Cash book shows $56 but James is credited $65: the two sides differ, so the trial balance will not agree. The others keep the TB in balance."
+ },
+ {
+  "id": "2020-NOV-R-Q10",
+  "paper": "2020_NOV_QP_4AC1_1R",
+  "year": 2020,
+  "month": "NOV",
+  "series": "October/November 2020",
+  "variant": "R",
+  "q": 10,
+  "stem": [
+   "Which entry will correct the error if $30 discount allowed had been posted to the credit of discount received?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Debit",
+    "Credit"
+   ],
+   "rows": {
+    "A": [
+     "Discount allowed $30\nDiscount received $30",
+     "Suspense $60"
+    ],
+    "B": [
+     "Discount received $30",
+     "Suspense $30"
+    ],
+    "C": [
+     "Suspense $30",
+     "Discount allowed $30"
+    ],
+    "D": [
+     "Suspense $60",
+     "Discount allowed $30\nDiscount received $30"
+    ]
+   }
+  },
+  "answer": "A",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "$30 should have been debited to discount allowed but was credited to discount received. Debit both accounts $30 and credit suspense $60."
+ },
+ {
+  "id": "2021-MAY-Q1",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Identify when a credit note is issued to a customer."
+  ],
+  "options": {
+   "A": "To correct an overcharge on an invoice",
+   "B": "To correct an undercharge on an invoice",
+   "C": "When goods are sold for cash",
+   "D": "When goods are sold for credit"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A credit note reduces the amount owed, e.g. to correct an overcharge or for returns."
+ },
+ {
+  "id": "2021-MAY-Q2",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Identify in which book of original entry a credit note received would be recorded in a customer’s books."
+  ],
+  "options": {
+   "A": "Purchases",
+   "B": "Purchases returns",
+   "C": "Sales",
+   "D": "Sales returns"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The customer received the credit note for goods it returned, so it goes in its purchases returns book."
+ },
+ {
+  "id": "2021-MAY-Q3",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Identify where total discounts on the credit side of a cash book would be posted."
+  ],
+  "options": {
+   "A": "Credit discounts allowed",
+   "B": "Credit discounts received",
+   "C": "Debit discounts allowed",
+   "D": "Debit discounts received"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Credit-side cash book discounts are discounts received, posted to the credit of discounts received."
+ },
+ {
+  "id": "2021-MAY-Q4",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Identify which of the following is not a principle of professional ethics."
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Duality",
+   "C": "Integrity",
+   "D": "Objectivity"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Duality is the double-entry principle, not an ethical principle."
+ },
+ {
+  "id": "2021-MAY-Q5",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "A trader includes the cost of small items of office equipment as expenses in the income statement.",
+   "Identify which accounting concept is being applied."
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Business entity",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Small items are expensed rather than capitalised because they are not material."
+ },
+ {
+  "id": "2021-MAY-Q6",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Identify which account always has a credit balance."
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Carriage outwards",
+   "C": "Returns inwards",
+   "D": "Returns outwards"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Returns outwards reduce purchases, so the account always has a credit balance."
+ },
+ {
+  "id": "2021-MAY-Q7",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Identify which of the following would be recorded on the credit side of a trade payables ledger control account."
+  ],
+  "options": {
+   "A": "Amounts paid to credit suppliers",
+   "B": "Contra with the trade receivables ledger control account",
+   "C": "Discount received from credit suppliers",
+   "D": "Interest charged by a supplier on late payment"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "Interest charged by a supplier on late payment increases the amount owed: credit side."
+ },
+ {
+  "id": "2021-MAY-Q8",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Identify where the balance of the irrecoverable debts account is transferred to at the year end."
+  ],
+  "options": {
+   "A": "Income statement",
+   "B": "Statement of financial position",
+   "C": "Trade payables ledger",
+   "D": "Trade receivables ledger"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Irrecoverable debts are an expense, transferred to the income statement at the year end."
+ },
+ {
+  "id": "2021-MAY-Q9",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Gina sells goods on credit to Kimi for $600. Gina’s terms of trade are 20% trade discount plus 5% cash discount for prompt settlement.",
+   "Identify which entry in Gina's books is correct."
+  ],
+  "options": {
+   "A": "$480 in the purchases day book",
+   "B": "$480 in the sales day book",
+   "C": "$456 in the purchases day book",
+   "D": "$456 in the sales day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Gina is the seller: $600 less 20% trade discount = $480 in the sales day book. Cash discount is not deducted on the invoice."
+ },
+ {
+  "id": "2021-MAY-Q10",
+  "paper": "2021_MAY_QP_4AC1_1",
+  "year": 2021,
+  "month": "MAY",
+  "series": "May/June 2021",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "Identify the double entry to record monies withdrawn from the bank for personal use."
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Bank",
+     "Cash"
+    ],
+    "B": [
+     "Bank",
+     "Drawings"
+    ],
+    "C": [
+     "Drawings",
+     "Bank"
+    ],
+    "D": [
+     "Drawings",
+     "Cash"
+    ]
+   }
+  },
+  "answer": "C",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Debit Drawings, credit Bank."
+ },
+ {
+  "id": "2021-NOV-Q1",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "A trader issues a credit note. Where would he record it?"
+  ],
+  "options": {
+   "A": "Purchases day book",
+   "B": "Purchases returns day book",
+   "C": "Sales day book",
+   "D": "Sales returns day book"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "A credit note issued by the trader is for goods returned by customers: sales returns day book."
+ },
+ {
+  "id": "2021-NOV-Q2",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Where are the personal accounts of customers buying goods on credit maintained?"
+  ],
+  "options": {
+   "A": "Purchases day book",
+   "B": "Sales day book",
+   "C": "Trade payables ledger",
+   "D": "Trade receivables ledger"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Credit customers' personal accounts are kept in the trade receivables ledger."
+ },
+ {
+  "id": "2021-NOV-Q3",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Where are the entries in the purchases day book taken from?"
+  ],
+  "options": {
+   "A": "Credit notes",
+   "B": "Purchase invoices",
+   "C": "Purchase order",
+   "D": "Statement of account"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The purchases day book is written up from purchase invoices received."
+ },
+ {
+  "id": "2021-NOV-Q4",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Which item would be recorded as a credit entry in a trade payables ledger control account?"
+  ],
+  "options": {
+   "A": "Amounts paid to credit suppliers",
+   "B": "Contra with the trade receivables ledger control account",
+   "C": "Discount received from credit suppliers",
+   "D": "Interest charged on late payment"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "Interest charged on late payment increases the amount owed: credit entry."
+ },
+ {
+  "id": "2021-NOV-Q5",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Where would the total discounts on the debit side of a cash book be posted?"
+  ],
+  "options": {
+   "A": "Credit discounts allowed",
+   "B": "Credit discounts received",
+   "C": "Debit discounts allowed",
+   "D": "Debit discounts received"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Debit-side discounts are discounts allowed; the total is debited to discounts allowed."
+ },
+ {
+  "id": "2021-NOV-Q6",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Which document from a supplier reduces the amount owed by a customer?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Invoice",
+   "C": "Purchase order",
+   "D": "Statement"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A credit note from the supplier reduces the customer's debt."
+ },
+ {
+  "id": "2021-NOV-Q7",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Which account always has a credit balance?"
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Carriage outwards",
+   "C": "Returns inwards",
+   "D": "Returns outwards"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Returns outwards always has a credit balance."
+ },
+ {
+  "id": "2021-NOV-Q8",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Where would the purchase of a motor vehicle on credit be recorded?"
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Journal",
+   "C": "Petty cash book",
+   "D": "Purchases day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Non-current assets bought on credit are recorded in the journal."
+ },
+ {
+  "id": "2021-NOV-Q9",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Barney has $25 left in the petty cash box and vouchers totalling $35.",
+   "How much does Barney need to restore the imprest to $60?"
+  ],
+  "options": {
+   "A": "$10",
+   "B": "$25",
+   "C": "$35",
+   "D": "$60"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Imprest is restored by the amount spent, shown by the vouchers: $35 ($25 + $35 = $60)."
+ },
+ {
+  "id": "2021-NOV-Q10",
+  "paper": "2021_NOV_QP_4AC1_1",
+  "year": 2021,
+  "month": "NOV",
+  "series": "October/November 2021",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "A payment for rent, $20, had been posted to the credit of the rent received account.",
+   "Which entry would correct the error?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Debit",
+    "Credit"
+   ],
+   "rows": {
+    "A": [
+     "Rent paid $20\nRent received $20",
+     "Suspense $40"
+    ],
+    "B": [
+     "Rent received $20",
+     "Suspense $20"
+    ],
+    "C": [
+     "Suspense $20",
+     "Rent paid $20"
+    ],
+    "D": [
+     "Suspense $40",
+     "Rent paid $20\nRent received $20"
+    ]
+   }
+  },
+  "answer": "A",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "Rent paid should be debited $20 and the wrong credit to rent received reversed (debit $20); credit suspense $40."
+ },
+ {
+  "id": "2022-MAY-Q1",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Identify which is a current liability."
+  ],
+  "options": {
+   "A": "Cash in hand",
+   "B": "Inventory",
+   "C": "Trade receivables",
+   "D": "Trade payables"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Trade payables are amounts owed to suppliers within a year: a current liability."
+ },
+ {
+  "id": "2022-MAY-Q2",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Identify the book of original entry in which irrecoverable debts are recorded."
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Journal",
+   "C": "Purchases day book",
+   "D": "Sales day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Irrecoverable debts are written off through the journal."
+ },
+ {
+  "id": "2022-MAY-Q3",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Identify in which book of original entry a credit note received by a trader would be recorded."
+  ],
+  "options": {
+   "A": "Purchases day book",
+   "B": "Purchases returns day book",
+   "C": "Sales day book",
+   "D": "Sales returns day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "A credit note received relates to goods returned to suppliers: purchases returns day book."
+ },
+ {
+  "id": "2022-MAY-Q4",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Identify the type of error when a sales invoice for $500 is entered in the sales day book as $450."
+  ],
+  "options": {
+   "A": "Commission",
+   "B": "Compensating",
+   "C": "Original entry",
+   "D": "Principle"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "The wrong amount was entered in the book of original entry, so both postings are wrong: error of original entry."
+ },
+ {
+  "id": "2022-MAY-Q5",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Identify what will be confirmed by preparing a trade payables ledger control account."
+  ],
+  "options": {
+   "A": "All purchase invoices have been posted",
+   "B": "All supplier payments have been processed",
+   "C": "Entries have been posted to the correct personal accounts",
+   "D": "The closing balance agrees with the total of individual balances"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "A control account checks that the closing balance agrees with the total of the individual ledger balances."
+ },
+ {
+  "id": "2022-MAY-Q6",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Identify the main purpose of providing depreciation on non-current assets."
+  ],
+  "options": {
+   "A": "To know the profit or loss on disposal",
+   "B": "To provide funds for the replacement of the asset",
+   "C": "To show the market value of the asset",
+   "D": "To spread the cost of the asset over its useful life"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "Depreciation spreads the cost over the asset's useful life."
+ },
+ {
+  "id": "2022-MAY-Q7",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Identify the accounting concept being described.",
+   "“Financial statements can record only information that has a monetary value”"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Materiality",
+   "C": "Money measurement",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Only items with a monetary value are recorded: money measurement."
+ },
+ {
+  "id": "2022-MAY-Q8",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Identify the effect on profits if revenue expenditure is treated as capital expenditure."
+  ],
+  "options": {
+   "A": "Gross profit overstated",
+   "B": "Gross profit understated",
+   "C": "Profit for the year overstated",
+   "D": "Profit for the year understated"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Capital & revenue expenditure",
+  "topic_code": "CRE",
+  "explanation": "Revenue expenditure capitalised understates expenses, so profit for the year is overstated."
+ },
+ {
+  "id": "2022-MAY-Q9",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Identify the principle of professional ethics being described.",
+   "“Accountants must make their own judgements on the accounts”"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Objectivity",
+   "D": "Professional behaviour"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Objectivity: accountants must not let bias or the influence of others override their own professional judgement."
+ },
+ {
+  "id": "2022-MAY-Q10",
+  "paper": "2022_MAY_QP_4AC1_1",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "Identify the double entry to record goods taken for personal use by a trader."
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Drawings",
+     "Purchases"
+    ],
+    "B": [
+     "Drawings",
+     "Sales"
+    ],
+    "C": [
+     "Purchases",
+     "Drawings"
+    ],
+    "D": [
+     "Sales",
+     "Drawings"
+    ]
+   }
+  },
+  "answer": "A",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Goods taken for own use: debit Drawings, credit Purchases (at cost)."
+ },
+ {
+  "id": "2022-MAY-R-Q1",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 1,
+  "stem": [
+   "Identify which is an asset."
+  ],
+  "options": {
+   "A": "Bank overdraft",
+   "B": "Other payables",
+   "C": "Other receivables",
+   "D": "Trade payables"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Other receivables (e.g. prepayments) are an asset. The other options are liabilities."
+ },
+ {
+  "id": "2022-MAY-R-Q2",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 2,
+  "stem": [
+   "Identify which account is maintained in the trade receivables ledger."
+  ],
+  "options": {
+   "A": "Customer's account",
+   "B": "Purchases account",
+   "C": "Sales account",
+   "D": "Supplier's account"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The receivables ledger holds customers' personal accounts."
+ },
+ {
+  "id": "2022-MAY-R-Q3",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 3,
+  "stem": [
+   "Identify which source document would show bank interest paid."
+  ],
+  "options": {
+   "A": "Bank statement",
+   "B": "Cheque counterfoil",
+   "C": "Credit note",
+   "D": "Invoice"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "Bank interest paid is first shown on the bank statement."
+ },
+ {
+  "id": "2022-MAY-R-Q4",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 4,
+  "stem": [
+   "Identify which statement is correct.",
+   "A bank reconciliation statement is:"
+  ],
+  "options": {
+   "A": "a record of bank charges",
+   "B": "part of the double entry",
+   "C": "prepared by the bank",
+   "D": "prepared by the trader"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "A bank reconciliation statement is prepared by the trader. It is not part of double entry."
+ },
+ {
+  "id": "2022-MAY-R-Q5",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 5,
+  "stem": [
+   "Identify which account always has a debit balance."
+  ],
+  "options": {
+   "A": "Bank loan",
+   "B": "Drawings",
+   "C": "Equity",
+   "D": "Interest received"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Drawings reduce equity and always have a debit balance."
+ },
+ {
+  "id": "2022-MAY-R-Q6",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 6,
+  "stem": [
+   "Identify where an expense owing is shown in the statement of financial position."
+  ],
+  "options": {
+   "A": "Current assets: Other payables",
+   "B": "Current assets: Other receivables",
+   "C": "Current liabilities: Other payables",
+   "D": "Current liabilities: Other receivables"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "An expense owing (accrual) is a current liability under other payables."
+ },
+ {
+  "id": "2022-MAY-R-Q7",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 7,
+  "stem": [
+   "Identify where the total of the discounts column on the credit side of a three column cash book is posted."
+  ],
+  "options": {
+   "A": "Credit discount allowed",
+   "B": "Credit discount received",
+   "C": "Debit discount allowed",
+   "D": "Debit discount received"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Credit-side discounts = discounts received; credit discount received account."
+ },
+ {
+  "id": "2022-MAY-R-Q8",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 8,
+  "stem": [
+   "Identify which is recorded on the debit side of a trade receivables ledger control account."
+  ],
+  "options": {
+   "A": "Customer’s returned cheque",
+   "B": "Discount allowed",
+   "C": "Irrecoverable debt",
+   "D": "Returns inward"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "A customer's returned (dishonoured) cheque restores the debt: debit side."
+ },
+ {
+  "id": "2022-MAY-R-Q9",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 9,
+  "stem": [
+   "Identify the effect on the financial statements when a trader does not account for expenses owing."
+  ],
+  "options": {
+   "A": "Gross profit overstated",
+   "B": "Gross profit understated",
+   "C": "Other payables overstated",
+   "D": "Other payables understated"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Ignoring expenses owing understates other payables (and overstates profit for the year)."
+ },
+ {
+  "id": "2022-MAY-R-Q10",
+  "paper": "2022_MAY_QP_4AC1_1R",
+  "year": 2022,
+  "month": "MAY",
+  "series": "May/June 2022",
+  "variant": "R",
+  "q": 10,
+  "stem": [
+   "Identify the correct entry when a trader purchases goods for resale using their own cash."
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Cash",
+     "Purchases"
+    ],
+    "B": [
+     "Equity",
+     "Purchases"
+    ],
+    "C": [
+     "Purchases",
+     "Cash"
+    ],
+    "D": [
+     "Purchases",
+     "Equity"
+    ]
+   }
+  },
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Purchases increase (debit Purchases); the owner has put in personal money, so credit Equity."
+ },
+ {
+  "id": "2023-JAN-Q1",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Identify which statement is incorrect."
+  ],
+  "options": {
+   "A": "Assets = liabilities + equity",
+   "B": "Equity = assets – liabilities",
+   "C": "Equity – liabilities = assets",
+   "D": "Liabilities = assets – equity"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Equity − liabilities ≠ assets; assets = equity + liabilities."
+ },
+ {
+  "id": "2023-JAN-Q2",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Identify which of these accounts always has a credit balance."
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Carriage outwards",
+   "C": "Discount allowed",
+   "D": "Discount received"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Discount received is income: always a credit balance."
+ },
+ {
+  "id": "2023-JAN-Q3",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Identify which is a reason for offering a cash discount."
+  ],
+  "options": {
+   "A": "Paying in cash",
+   "B": "Paying promptly",
+   "C": "Purchasing in bulk",
+   "D": "Regular customer"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Cash discount encourages prompt payment."
+ },
+ {
+  "id": "2023-JAN-Q4",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Inventory should be valued at the lower of cost and net realisable value.",
+   "Identify which accounting concept this is an application of."
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Consistency",
+   "C": "Money measurement",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Lower of cost and NRV prevents overstatement: prudence."
+ },
+ {
+  "id": "2023-JAN-Q5",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Identify which is not a principle of professional ethics."
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Materiality",
+   "D": "Objectivity"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Materiality is an accounting concept, not an ethical principle."
+ },
+ {
+  "id": "2023-JAN-Q6",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Identify which item should be entered on the credit side of the trade payables ledger control account."
+  ],
+  "options": {
+   "A": "Cash purchases",
+   "B": "Credit purchases",
+   "C": "Discounts received",
+   "D": "Returns outwards"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "Credit purchases increase trade payables: credit side."
+ },
+ {
+  "id": "2023-JAN-Q7",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Identify why a business depreciates a non-current asset."
+  ],
+  "options": {
+   "A": "To know the profit or loss on disposal",
+   "B": "To know the value at the end of its useful life",
+   "C": "To provide cash for its replacement",
+   "D": "To spread the cost over its expected useful life"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "Depreciation spreads the cost over the expected useful life."
+ },
+ {
+  "id": "2023-JAN-Q8",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Returns inwards, $150, was posted to the credit of returns outwards.",
+   "Identify how this transaction would be corrected in the books of account."
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Returns inwards $150\nReturns outwards $150",
+     "Suspense account $300"
+    ],
+    "B": [
+     "Suspense account $300",
+     "Returns inwards $150\nReturns outwards $150"
+    ],
+    "C": [
+     "Returns inwards $150",
+     "Suspense account $150"
+    ],
+    "D": [
+     "Returns outwards $150",
+     "Suspense account $150"
+    ]
+   }
+  },
+  "answer": "A",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "Debit returns inwards $150 and debit returns outwards $150 (to remove the wrong credit); credit suspense $300."
+ },
+ {
+  "id": "2023-JAN-Q9",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Identify which error would be disclosed by the preparation of a trial balance."
+  ],
+  "options": {
+   "A": "Credit sales, $500, entered on both sides of the ledger as $50",
+   "B": "Discount allowed, $60, posted to the credit side of the discount allowed account",
+   "C": "Purchases account and sales account both overcast by $650",
+   "D": "Purchases on credit, $290, omitted from the books"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "Posting discount allowed to the wrong side of its account makes the debit and credit totals differ by $120, so the TB will not balance."
+ },
+ {
+  "id": "2023-JAN-Q10",
+  "paper": "2023_JAN_QP_4AC1_1",
+  "year": 2023,
+  "month": "JAN",
+  "series": "January 2023",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "Identify how income received in advance would be shown in the statement of financial position."
+  ],
+  "options": {
+   "A": "Current assets – Other payables",
+   "B": "Current assets – Other receivables",
+   "C": "Current liabilities – Other payables",
+   "D": "Current liabilities – Other receivables"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Income received in advance is owed to the customer/tenant: current liability, other payables."
+ },
+ {
+  "id": "2023-MAY-Q1",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Identify which is a liability."
+  ],
+  "options": {
+   "A": "Inventories",
+   "B": "Other payables",
+   "C": "Other receivables",
+   "D": "Petty cash"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Other payables are amounts owed: a liability."
+ },
+ {
+  "id": "2023-MAY-Q2",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Identify the term used to describe an instruction to a bank to make a fixed payment to a supplier on the last day of every month."
+  ],
+  "options": {
+   "A": "Cheque",
+   "B": "Credit transfer",
+   "C": "Direct debit",
+   "D": "Standing order"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "A standing order is the payer's instruction to its bank to make a fixed regular payment."
+ },
+ {
+  "id": "2023-MAY-Q3",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Identify which account always has a credit balance."
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Carriage outwards",
+   "C": "Discount allowed",
+   "D": "Discount received"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Discount received always has a credit balance."
+ },
+ {
+  "id": "2023-MAY-Q4",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Identify what the closing balance on a trade receivables ledger control account represents."
+  ],
+  "options": {
+   "A": "The amount owing by credit customers",
+   "B": "The amount owing to credit suppliers",
+   "C": "The total amount of credit sales for the year",
+   "D": "The total amount received from credit customers for the year"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "The closing debit balance on the receivables control account is the total owed by credit customers."
+ },
+ {
+  "id": "2023-MAY-Q5",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Identify which of the following represents capital expenditure."
+  ],
+  "options": {
+   "A": "Additional capital invested by the owner",
+   "B": "Drawings by the owner",
+   "C": "Expenditure on the purchase of non-current assets",
+   "D": "Expenditure on the maintenance of non-current assets"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Capital & revenue expenditure",
+  "topic_code": "CRE",
+  "explanation": "Buying non-current assets is capital expenditure. Maintenance is revenue expenditure."
+ },
+ {
+  "id": "2023-MAY-Q6",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "A trader sells 20 items at $8 each to a credit customer less a trade discount of 10%.",
+   "The customer returns five of these items.",
+   "Identify which amount will be shown on the credit note issued."
+  ],
+  "options": {
+   "A": "$44",
+   "B": "$40",
+   "C": "$38",
+   "D": "$36"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Net price per item $8 × 90% = $7.20; 5 items × $7.20 = $36."
+ },
+ {
+  "id": "2023-MAY-Q7",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "A business purchases a machine for $40 000. Depreciation is charged at 25% per annum on a straight line basis.",
+   "Identify the net book value of the machine after two years."
+  ],
+  "options": {
+   "A": "$10 000",
+   "B": "$20 000",
+   "C": "$22 500",
+   "D": "$30 000"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "$40 000 × 25% = $10 000 a year; after two years NBV = $40 000 − $20 000 = $20 000."
+ },
+ {
+  "id": "2023-MAY-Q8",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "A business maintains a petty cash book with a float of $300. During the month it spent $185 on petty cash items.",
+   "Identify the amount required to restore the float at the end of the month."
+  ],
+  "options": {
+   "A": "$485",
+   "B": "$300",
+   "C": "$185",
+   "D": "$115"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "The float is restored by the amount spent: $185."
+ },
+ {
+  "id": "2023-MAY-Q9",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "At the start of the year a business’s rent received account had a debit balance of $200.",
+   "During the year $250 per month was received from a tenant. At the end of the year the account had a credit balance of $100.",
+   "Identify the amount to be shown on the income statement for rent received for the year."
+  ],
+  "options": {
+   "A": "$3 100",
+   "B": "$3 000",
+   "C": "$2 800",
+   "D": "$2 700"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Cash received $3 000 − opening accrued $200 − closing prepaid $100 = $2 700."
+ },
+ {
+  "id": "2023-MAY-Q10",
+  "paper": "2023_MAY_QP_4AC1_1",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "A sole trader’s draft profit for the year ended 30 April 2023 was $65 000 before adjusting for an outstanding invoice for light and heat totalling $1 200 for the three months ending 31 May 2023.",
+   "Identify the adjusted profit for the year ended 30 April 2023."
+  ],
+  "options": {
+   "A": "$66 200",
+   "B": "$65 800",
+   "C": "$64 200",
+   "D": "$63 800"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "$1 200 for 3 months = $400 a month; March and April ($800) belong to this year. $65 000 − $800 = $64 200."
+ },
+ {
+  "id": "2023-MAY-R-Q1",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 1,
+  "stem": [
+   "Identify the document that is sent to a customer at the end of the month requesting payment."
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Invoice",
+   "C": "Receipt",
+   "D": "Statement"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "The statement is sent at the end of the month to request payment of the balance."
+ },
+ {
+  "id": "2023-MAY-R-Q2",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 2,
+  "stem": [
+   "Identify how the closing balance on a petty cash book is classified in the financial statements."
+  ],
+  "options": {
+   "A": "Current asset",
+   "B": "Current liability",
+   "C": "Non-current asset",
+   "D": "Non-current liability"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Cash held in petty cash is a current asset."
+ },
+ {
+  "id": "2023-MAY-R-Q3",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 3,
+  "stem": [
+   "Identify which one of the following accounts would always have a debit balance."
+  ],
+  "options": {
+   "A": "Bank current",
+   "B": "Bank deposit",
+   "C": "Bank interest",
+   "D": "Bank loan"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "A bank deposit account is always an asset (debit). A current account can be overdrawn; interest can be income or expense."
+ },
+ {
+  "id": "2023-MAY-R-Q4",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 4,
+  "stem": [
+   "Identify which one of the following is shown in the equity account."
+  ],
+  "options": {
+   "A": "Gross profit",
+   "B": "Loss on disposal",
+   "C": "Profit for the year",
+   "D": "Profit on disposal"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Profit for the year is added to equity. Gross profit and disposal results stay in the income statement."
+ },
+ {
+  "id": "2023-MAY-R-Q5",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 5,
+  "stem": [
+   "Identify the effect of creating an allowance for doubtful debts."
+  ],
+  "options": {
+   "A": "Gross profit decreases",
+   "B": "Gross profit increases",
+   "C": "Profit for the year decreases",
+   "D": "Profit for the year increases"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Creating the allowance is an expense in the income statement, so profit for the year falls. Gross profit is unaffected."
+ },
+ {
+  "id": "2023-MAY-R-Q6",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 6,
+  "stem": [
+   "Identify the principle of professional ethics being described.",
+   "‘Accountants must be straightforward, honest and truthful.’"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Objectivity",
+   "D": "Professional behaviour"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Being straightforward and honest is integrity."
+ },
+ {
+  "id": "2023-MAY-R-Q7",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 7,
+  "stem": [
+   "Identify which of the following are causes of depreciation.",
+   "1 Passage of time 2 Usage 3 Wear and tear"
+  ],
+  "options": {
+   "A": "1 and 2 only",
+   "B": "1 and 3 only",
+   "C": "2 and 3 only",
+   "D": "1, 2 and 3"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "Passage of time, usage and wear and tear all cause depreciation."
+ },
+ {
+  "id": "2023-MAY-R-Q8",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 8,
+  "stem": [
+   "Identify why a customer may be interested in the financial statements of a supplier."
+  ],
+  "options": {
+   "A": "To ensure continuity of access to products",
+   "B": "To ensure loans will be repaid",
+   "C": "To know comparative business performance",
+   "D": "To know the profit to be taxed"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Organisations & stakeholders",
+  "topic_code": "ORG",
+  "explanation": "A customer wants to be sure its supplier will survive so that supplies continue."
+ },
+ {
+  "id": "2023-MAY-R-Q9",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 9,
+  "stem": [
+   "Identify which one of the following is an ‘other receivable’."
+  ],
+  "options": {
+   "A": "Rent expenditure",
+   "B": "Rent expenditure owing",
+   "C": "Rental income owing",
+   "D": "Rental income in advance"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Rental income owing is due to the business: other receivable. Rental income in advance is a payable."
+ },
+ {
+  "id": "2023-MAY-R-Q10",
+  "paper": "2023_MAY_QP_4AC1_1R",
+  "year": 2023,
+  "month": "MAY",
+  "series": "May/June 2023",
+  "variant": "R",
+  "q": 10,
+  "stem": [
+   "Identify the double entry to record the writing off of an irrecoverable debt."
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Account to be debited",
+    "Account to be credited"
+   ],
+   "rows": {
+    "A": [
+     "Irrecoverable debts",
+     "Provision for irrecoverable debts"
+    ],
+    "B": [
+     "Irrecoverable debts",
+     "Trade receivables ledger control"
+    ],
+    "C": [
+     "Provision for irrecoverable debts",
+     "Irrecoverable debts"
+    ],
+    "D": [
+     "Trade receivables ledger control",
+     "Irrecoverable debts"
+    ]
+   }
+  },
+  "answer": "B",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Debit irrecoverable debts (expense), credit trade receivables ledger control."
+ },
+ {
+  "id": "2023-OCT-Q1",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Identify what a debit balance of $100 in a cash account represents."
+  ],
+  "options": {
+   "A": "Cash had been overspent by $100",
+   "B": "Cash in hand was $100",
+   "C": "Total cash paid out was $100",
+   "D": "Total cash received was less than $100"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "A debit balance on the cash account is an asset: cash in hand of $100."
+ },
+ {
+  "id": "2023-OCT-Q2",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Identify the reason for offering a cash discount."
+  ],
+  "options": {
+   "A": "To encourage bulk buying",
+   "B": "To encourage prompt payment",
+   "C": "To gain new customers",
+   "D": "To reward loyalty"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Cash discount encourages prompt payment."
+ },
+ {
+  "id": "2023-OCT-Q3",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Identify which transaction would be entered in both the payables ledger and the general ledger."
+  ],
+  "options": {
+   "A": "Purchase of goods for cash",
+   "B": "Purchase of equipment by cheque",
+   "C": "Return of goods to a credit customer",
+   "D": "Return of goods to a credit supplier"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Returns to a credit supplier affect the supplier's account in the payables ledger and purchases returns in the general ledger."
+ },
+ {
+  "id": "2023-OCT-Q4",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Identify which transaction would not be entered in a business’s cash book."
+  ],
+  "options": {
+   "A": "Purchase of goods by cheque",
+   "B": "Purchase of goods for cash",
+   "C": "Purchase of machinery on credit",
+   "D": "Purchase of machinery by credit transfer"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Machinery bought on credit involves no cash or bank movement at the time, so it is not in the cash book."
+ },
+ {
+  "id": "2023-OCT-Q5",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Identify the book of original entry that is also part of the double entry system."
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Petty cash book",
+   "C": "Purchases day book",
+   "D": "Purchases returns day book"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The cash book is both a book of original entry and the cash/bank ledger account. (A petty cash book kept under imprest can also act this way, but the cash book is the standard answer.)"
+ },
+ {
+  "id": "2023-OCT-Q6",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Identify which one of the following would be entered on the credit side of the equity account."
+  ],
+  "options": {
+   "A": "Cash drawings",
+   "B": "Goods taken for own use",
+   "C": "Loss for the year",
+   "D": "Profit for the year"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Profit for the year increases equity: credit side."
+ },
+ {
+  "id": "2023-OCT-Q7",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Identify which characteristic describes a public sector organisation."
+  ],
+  "options": {
+   "A": "Exists to make a profit",
+   "B": "Exists to serve the community",
+   "C": "Owned by a sole trader",
+   "D": "Owned by a partnership"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Organisations & stakeholders",
+  "topic_code": "ORG",
+  "explanation": "Public sector organisations exist to serve the community, not to make a profit."
+ },
+ {
+  "id": "2023-OCT-Q8",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Identify the professional ethic being described.",
+   "‘An accountant’s knowledge must be at an appropriate level.’"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Objectivity",
+   "D": "Professional competence"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Maintaining knowledge and skill at the required level is professional competence (and due care)."
+ },
+ {
+  "id": "2023-OCT-Q9",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Identify the accounting concept of which the recording of other payables and receivables is an application."
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Business entity",
+   "C": "Money measurement",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Accruals and prepayments match income and expenses to the period: accruals concept."
+ },
+ {
+  "id": "2023-OCT-Q10",
+  "paper": "2023_OCT_QP_4AC1_1",
+  "year": 2023,
+  "month": "OCT",
+  "series": "October 2023",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "Identify the accounting concept being applied when a trader always uses the same method of depreciation."
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Business entity",
+   "C": "Consistency",
+   "D": "Materiality"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Using the same method each year is consistency."
+ },
+ {
+  "id": "2024-MAY-Q1",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Which book of original entry is used to record small cash payments?"
+  ],
+  "options": {
+   "A": "Journal",
+   "B": "Petty cash book",
+   "C": "Purchases day book",
+   "D": "Three column cash book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Small cash payments are recorded in the petty cash book."
+ },
+ {
+  "id": "2024-MAY-Q2",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Which transaction will be recorded in the purchases day book?"
+  ],
+  "options": {
+   "A": "Purchase of goods by cash",
+   "B": "Purchase of goods on credit",
+   "C": "Purchase of a machine on credit",
+   "D": "Purchase of stationery by cash"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Only credit purchases of goods for resale go in the purchases day book."
+ },
+ {
+  "id": "2024-MAY-Q3",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Which transaction would cause a decrease in trade payables?"
+  ],
+  "options": {
+   "A": "Purchase of goods from a credit supplier",
+   "B": "Return of goods from a credit customer",
+   "C": "Return of goods to a credit supplier",
+   "D": "Sale of goods to a credit customer"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "Returning goods to a credit supplier reduces the amount owed."
+ },
+ {
+  "id": "2024-MAY-Q4",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Where would the total discounts on the credit side of a cash book be posted?"
+  ],
+  "options": {
+   "A": "Credit discounts allowed",
+   "B": "Credit discounts received",
+   "C": "Debit discounts allowed",
+   "D": "Debit discounts received"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Credit-side discounts = discounts received; credit discounts received."
+ },
+ {
+  "id": "2024-MAY-Q5",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Which one of the following is not an asset?"
+  ],
+  "options": {
+   "A": "Inventory",
+   "B": "Premises",
+   "C": "Trade payables",
+   "D": "Trade receivables"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Trade payables are a liability."
+ },
+ {
+  "id": "2024-MAY-Q6",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Which accounting concept is described in the statement ‘The business will continue in existence for the foreseeable future’?"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Consistency",
+   "C": "Going concern",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Continuing in existence for the foreseeable future is going concern."
+ },
+ {
+  "id": "2024-MAY-Q7",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Which accounting concept is described in the statement ‘Profits and assets are not overstated’?"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Consistency",
+   "C": "Going concern",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Not overstating profits and assets is prudence."
+ },
+ {
+  "id": "2024-MAY-Q8",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Which one of the following is not a principle of professional ethics?"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Duality",
+   "C": "Integrity",
+   "D": "Objectivity"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Duality is an accounting concept, not an ethical principle."
+ },
+ {
+  "id": "2024-MAY-Q9",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "A trader purchases goods with a list price of $600. He receives a trade discount of 20% and a cash discount of 5%. What amount should be entered in the purchases account?"
+  ],
+  "options": {
+   "A": "$600",
+   "B": "$570",
+   "C": "$480",
+   "D": "$456"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Purchases are recorded net of trade discount: $600 × 80% = $480. Cash discount is recorded only when payment is made."
+ },
+ {
+  "id": "2024-MAY-Q10",
+  "paper": "2024_MAY_QP_4AC1_1",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "A business sells a non-current asset for $3 500. The non-current asset had an original cost of $12 500 and had been depreciated by $8 000",
+   "Identify the profit or loss on disposal."
+  ],
+  "options": {
+   "A": "$1 000 profit",
+   "B": "$1 000 loss",
+   "C": "$4 500 profit",
+   "D": "$4 500 loss"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "NBV $12 500 − $8 000 = $4 500; proceeds $3 500 → loss of $1 000."
+ },
+ {
+  "id": "2024-MAY-R-Q1",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 1,
+  "stem": [
+   "Identify where the account of a credit supplier is maintained."
+  ],
+  "options": {
+   "A": "General journal",
+   "B": "General ledger",
+   "C": "Payables ledger",
+   "D": "Receivables ledger"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Credit suppliers' accounts are in the payables ledger."
+ },
+ {
+  "id": "2024-MAY-R-Q2",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 2,
+  "stem": [
+   "Identify where discount allowed is initially recorded."
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "General journal",
+   "C": "General ledger",
+   "D": "Purchases journal"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Discount allowed is first recorded in the discount column of the cash book."
+ },
+ {
+  "id": "2024-MAY-R-Q3",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 3,
+  "stem": [
+   "Identify what an opening credit balance of $1 500 in a business bank account represents."
+  ],
+  "options": {
+   "A": "Business has an overdraft of $1 500",
+   "B": "Business has $1 500 in the bank",
+   "C": "Owner’s equity is $1 500",
+   "D": "Owner’s equity is $3 000"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "In the business's own books a credit balance on the bank account is an overdraft."
+ },
+ {
+  "id": "2024-MAY-R-Q4",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 4,
+  "stem": [
+   "Identify when a cash discount is given."
+  ],
+  "options": {
+   "A": "Payment is made by cash only",
+   "B": "Payment is made by cash or cheque",
+   "C": "Payment is made within an agreed time period",
+   "D": "Payment is made after an agreed time period"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Cash discount is given for payment within an agreed time."
+ },
+ {
+  "id": "2024-MAY-R-Q5",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 5,
+  "stem": [
+   "Identify which transaction would be recorded in the receivables ledger."
+  ],
+  "options": {
+   "A": "Sale of a non-current asset on credit",
+   "B": "Sale of goods on credit",
+   "C": "Sale of a non-current asset for cash",
+   "D": "Sale of goods for cash"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The receivables ledger records credit sales of goods to customers."
+ },
+ {
+  "id": "2024-MAY-R-Q6",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 6,
+  "stem": [
+   "Identify which account would always be shown on the credit side of a trial balance."
+  ],
+  "options": {
+   "A": "Bank",
+   "B": "Drawings",
+   "C": "Equity",
+   "D": "Petty cash"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Equity is always a credit balance. Bank can be either side; drawings and petty cash are debits."
+ },
+ {
+  "id": "2024-MAY-R-Q7",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 7,
+  "stem": [
+   "Identify which statement describes the imprest system of petty cash."
+  ],
+  "options": {
+   "A": "The chief cashier has to authorise every payment of petty cash",
+   "B": "The chief cashier regularly monitors the work of the petty cashier",
+   "C": "The petty cashier requests money from the chief cashier as required",
+   "D": "The petty cashier always starts each period with the same amount of money"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Under the imprest system the petty cashier starts each period with the same fixed amount."
+ },
+ {
+  "id": "2024-MAY-R-Q8",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 8,
+  "stem": [
+   "Identify where the total of postage costs recorded in the petty cash book is posted."
+  ],
+  "options": {
+   "A": "Credit side of the cash book",
+   "B": "Credit side of the postages account",
+   "C": "Debit side of the cash book",
+   "D": "Debit side of the postages account"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Analysis column totals are debited to the expense accounts, e.g. debit postages."
+ },
+ {
+  "id": "2024-MAY-R-Q9",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 9,
+  "stem": [
+   "Identify which accounting concept is described in the statement ‘the business is treated as being completely separate from the owner of the business’."
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Going concern",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Treating the business as separate from its owner is business entity."
+ },
+ {
+  "id": "2024-MAY-R-Q10",
+  "paper": "2024_MAY_QP_4AC1_1R",
+  "year": 2024,
+  "month": "MAY",
+  "series": "May/June 2024",
+  "variant": "R",
+  "q": 10,
+  "stem": [
+   "Identify when a provision for irrecoverable debts should be created."
+  ],
+  "options": {
+   "A": "When irrecoverable debts are written off",
+   "B": "When a trader ceases trading",
+   "C": "When a trader is bankrupt",
+   "D": "When assessing the chances of irrecoverable debts"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "A provision is made when assessing the likelihood that some debts will not be paid."
+ },
+ {
+  "id": "2024-NOV-Q1",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Identify where the account of a credit customer is maintained."
+  ],
+  "options": {
+   "A": "General journal",
+   "B": "General ledger",
+   "C": "Payables ledger",
+   "D": "Receivables ledger"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Credit customers' accounts are kept in the receivables ledger."
+ },
+ {
+  "id": "2024-NOV-Q2",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Identify when a business would issue a credit note."
+  ],
+  "options": {
+   "A": "Goods returned by a cash customer",
+   "B": "Goods returned by a credit customer",
+   "C": "Goods sold to a cash customer",
+   "D": "Goods sold to a credit customer"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A credit note is issued when a credit customer returns goods."
+ },
+ {
+  "id": "2024-NOV-Q3",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Identify what an opening debit balance of $1 500 in a business bank account represents."
+  ],
+  "options": {
+   "A": "Business has an overdraft of $1 500",
+   "B": "Business has $1 500 in the bank",
+   "C": "Owner’s equity is $1 500",
+   "D": "Owner’s equity is $3 000"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "In the business's books a debit bank balance is money in the bank."
+ },
+ {
+  "id": "2024-NOV-Q4",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Identify which transaction would cause a contra entry to be recorded in a three-column cash book."
+  ],
+  "options": {
+   "A": "Cash drawings made by the owner",
+   "B": "Cash paid into the bank account",
+   "C": "Cash used to pay business expenses",
+   "D": "Cash used to restore petty cash"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Paying cash into the bank affects both cash and bank columns of the cash book: a contra entry."
+ },
+ {
+  "id": "2024-NOV-Q5",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Identify which transaction would affect a business’s profit."
+  ],
+  "options": {
+   "A": "Sale of a non-current asset at book value",
+   "B": "Settlement of a business debt with discount",
+   "C": "Settlement of a business debt in full",
+   "D": "Transfer of cash to the bank account"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Settling a debt with a discount creates discount received (income), which increases profit."
+ },
+ {
+  "id": "2024-NOV-Q6",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Identify which method of payment applies when a business instructs its bank to make a fixed payment of $200 to its energy provider each month."
+  ],
+  "options": {
+   "A": "Cheque",
+   "B": "Credit transfer",
+   "C": "Direct debit",
+   "D": "Standing order"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "A fixed regular payment the business instructs its bank to make is a standing order."
+ },
+ {
+  "id": "2024-NOV-Q7",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Identify which item would appear in a bank reconciliation statement."
+  ],
+  "options": {
+   "A": "Bank charges",
+   "B": "Direct debit",
+   "C": "Standing order",
+   "D": "Unpresented cheque"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "Unpresented cheques are timing differences, shown in the bank reconciliation statement. The others are entered in the cash book."
+ },
+ {
+  "id": "2024-NOV-Q8",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Identify which of the following pairs of accounts would always have debit balances."
+  ],
+  "options": {
+   "A": "Assets and expenses",
+   "B": "Equity and expenses",
+   "C": "Income and assets",
+   "D": "Liabilities and income"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Assets and expenses always have debit balances."
+ },
+ {
+  "id": "2024-NOV-Q9",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Identify which accounting concept is described in the statement.",
+   "‘Financial transactions of a similar nature should be recorded in the same way each year.’"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Recording similar transactions in the same way each year is consistency."
+ },
+ {
+  "id": "2024-NOV-Q10",
+  "paper": "2024_NOV_QP_4AC1_1",
+  "year": 2024,
+  "month": "NOV",
+  "series": "October/November 2024",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "Identify which account would appear on the credit side of a trial balance."
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Carriage outwards",
+   "C": "Discount allowed",
+   "D": "Discount received"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Discount received is income: credit side of the trial balance."
+ },
+ {
+  "id": "2025-MAY-Q1",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Which business document shows the sales returns and payments made during a period?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Debit note",
+   "C": "Sales invoice",
+   "D": "Statement of account"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "The statement of account shows sales, returns and payments for the period."
+ },
+ {
+  "id": "2025-MAY-Q2",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Which account always has a credit balance?"
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Discount allowed",
+   "C": "Discount received",
+   "D": "Sales returns"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Discount received is income: always a credit balance."
+ },
+ {
+  "id": "2025-MAY-Q3",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Which is an internal stakeholder?"
+  ],
+  "options": {
+   "A": "Customer",
+   "B": "Investor",
+   "C": "Manager",
+   "D": "Supplier"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Organisations & stakeholders",
+  "topic_code": "ORG",
+  "explanation": "Managers work inside the business, so they are internal stakeholders."
+ },
+ {
+  "id": "2025-MAY-Q4",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Which accounting concept is described in the statement:",
+   "“Accountants should always take a conservative figure so as not to overstate the profit.”?"
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Taking a cautious figure so profit is not overstated is prudence."
+ },
+ {
+  "id": "2025-MAY-Q5",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Which statement is incorrect?"
+  ],
+  "options": {
+   "A": "Assets = liabilities + equity",
+   "B": "Equity = assets – liabilities",
+   "C": "Equity – liabilities = assets",
+   "D": "Liabilities = assets – equity"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Equity − liabilities ≠ assets."
+ },
+ {
+  "id": "2025-MAY-Q6",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Why does a business depreciate a non-current asset?"
+  ],
+  "options": {
+   "A": "To know the profit or loss on disposal",
+   "B": "To know the value at the end of its useful life",
+   "C": "To provide cash for its replacement",
+   "D": "To spread the cost over its useful life"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "Depreciation spreads the cost over the useful life."
+ },
+ {
+  "id": "2025-MAY-Q7",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Which book of original entry in a trader’s accounts will include a credit note sent by the trader?"
+  ],
+  "options": {
+   "A": "Purchases day book",
+   "B": "Purchases returns book",
+   "C": "Sales day book",
+   "D": "Sales returns book"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "A credit note sent by the trader is for goods returned by customers: sales returns book."
+ },
+ {
+  "id": "2025-MAY-Q8",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Which is shown in the equity account?"
+  ],
+  "options": {
+   "A": "Gross profit",
+   "B": "Loss for the year",
+   "C": "Loss on disposal",
+   "D": "Profit on disposal"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Loss for the year is deducted in the equity account. Gross profit and disposal results stay in the income statement."
+ },
+ {
+  "id": "2025-MAY-Q9",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "The discount column on the debit side of a cash book totalled $950 and the discount column on the credit side of the cash book totalled $420",
+   "How much discount did the trader receive?"
+  ],
+  "options": {
+   "A": "$420",
+   "B": "$530",
+   "C": "$950",
+   "D": "$1370"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Discount received is on the credit side of the cash book: $420."
+ },
+ {
+  "id": "2025-MAY-Q10",
+  "paper": "2025_MAY_QP_4AC1_1",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "Which is a liability?"
+  ],
+  "options": {
+   "A": "Irrecoverable debt recovered",
+   "B": "Irrecoverable debt written off",
+   "C": "Rental income received in advance",
+   "D": "Rent payable paid in advance"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accruals, prepayments & irrecoverable debts",
+  "topic_code": "ADJ",
+  "explanation": "Rental income received in advance is owed to the tenant: a liability."
+ },
+ {
+  "id": "2025-MAY-R-Q1",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 1,
+  "stem": [
+   "Which document indicates a business’s intention to buy goods from a supplier?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Purchase invoice",
+   "C": "Purchase order",
+   "D": "Remittance advice"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A purchase order shows the intention to buy."
+ },
+ {
+  "id": "2025-MAY-R-Q2",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 2,
+  "stem": [
+   "When would a business issue an invoice?"
+  ],
+  "options": {
+   "A": "Goods returned by a cash customer",
+   "B": "Goods returned by a credit customer",
+   "C": "Goods sold to a cash customer",
+   "D": "Goods sold to a credit customer"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A sales invoice is issued when goods are sold on credit."
+ },
+ {
+  "id": "2025-MAY-R-Q3",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 3,
+  "stem": [
+   "Which book of original entry is used to record the purchase of a non‑current asset on credit?"
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Journal",
+   "C": "Petty cash book",
+   "D": "Purchases day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Non-current assets bought on credit go in the journal."
+ },
+ {
+  "id": "2025-MAY-R-Q4",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 4,
+  "stem": [
+   "Which account balance could appear on either the debit side or the credit side of a trial balance?"
+  ],
+  "options": {
+   "A": "Bank",
+   "B": "Cash",
+   "C": "Drawings",
+   "D": "Equity"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Bank can be a debit (money in bank) or credit (overdraft). Cash cannot be overdrawn."
+ },
+ {
+  "id": "2025-MAY-R-Q5",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 5,
+  "stem": [
+   "When is a suspense account opened?"
+  ],
+  "options": {
+   "A": "Business makes a loss for the year",
+   "B": "Business makes a profit for the year",
+   "C": "Trial balance balances",
+   "D": "Trial balance does not balance"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "A suspense account is opened when the trial balance does not agree."
+ },
+ {
+  "id": "2025-MAY-R-Q6",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 6,
+  "stem": [
+   "When would a business allow a customer a cash discount?"
+  ],
+  "options": {
+   "A": "Customer had purchased previously",
+   "B": "Customer paid in cash",
+   "C": "Customer paid their account within stated time",
+   "D": "Customer purchased a large amount of goods"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Cash discount is for paying within the stated time."
+ },
+ {
+  "id": "2025-MAY-R-Q7",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 7,
+  "stem": [
+   "Which of the following pairs of accounts always has a credit balance?"
+  ],
+  "options": {
+   "A": "Assets and expenses",
+   "B": "Equity and expenses",
+   "C": "Income and assets",
+   "D": "Liabilities and income"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Liabilities and income always have credit balances."
+ },
+ {
+  "id": "2025-MAY-R-Q8",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 8,
+  "stem": [
+   "Which type of business organisation does not have as its main objective to make profits?"
+  ],
+  "options": {
+   "A": "Partnership",
+   "B": "Private sector organisation",
+   "C": "Public sector organisation",
+   "D": "Sole trader"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Organisations & stakeholders",
+  "topic_code": "ORG",
+  "explanation": "Public sector organisations aim to provide services, not profit."
+ },
+ {
+  "id": "2025-MAY-R-Q9",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 9,
+  "stem": [
+   "Which accounting concept is described in the statement:",
+   "“Every business is regarded as having an existence separate from that of its owner”?"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Separate existence from the owner is business entity."
+ },
+ {
+  "id": "2025-MAY-R-Q10",
+  "paper": "2025_MAY_QP_4AC1_1R",
+  "year": 2025,
+  "month": "MAY",
+  "series": "May/June 2025",
+  "variant": "R",
+  "q": 10,
+  "stem": [
+   "Which principle of professional ethics is being described in the statement:",
+   "“Accountants must be straightforward and honest in all their dealings”?"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Objectivity",
+   "D": "Professional competence"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Being straightforward and honest is integrity."
+ },
+ {
+  "id": "2025-NOV-Q1",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "Which document is sent to a customer showing the transactions that took place during a particular period of time?"
+  ],
+  "options": {
+   "A": "Credit note",
+   "B": "Invoice",
+   "C": "Receipt",
+   "D": "Statement of account"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "A statement of account shows the period's transactions and the balance."
+ },
+ {
+  "id": "2025-NOV-Q2",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "Which account always has a credit balance?"
+  ],
+  "options": {
+   "A": "Carriage inwards",
+   "B": "Carriage outwards",
+   "C": "Discount allowed",
+   "D": "Discount received"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Discount received always has a credit balance."
+ },
+ {
+  "id": "2025-NOV-Q3",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Which transaction will be recorded in the sales day book?"
+  ],
+  "options": {
+   "A": "Sale of goods for cash",
+   "B": "Sale of goods on credit",
+   "C": "Sale of a non-current asset for cash",
+   "D": "Sale of a non-current asset on credit"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The sales day book records credit sales of goods only."
+ },
+ {
+  "id": "2025-NOV-Q4",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Where is discount allowed initially recorded?"
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "General journal",
+   "C": "General ledger",
+   "D": "Purchases day book"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Discount allowed is first recorded in the cash book discount column."
+ },
+ {
+  "id": "2025-NOV-Q5",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Which is shown in the equity account?"
+  ],
+  "options": {
+   "A": "Gross profit for the year",
+   "B": "Loss on disposal",
+   "C": "Profit for the year",
+   "D": "Profit on disposal"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Profit for the year is added to equity."
+ },
+ {
+  "id": "2025-NOV-Q6",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "What does the closing balance on a trade payables control account represent?"
+  ],
+  "options": {
+   "A": "The total amount of credit sales for the year",
+   "B": "The total amount of credit purchases for the year",
+   "C": "The total amount owing by credit customers",
+   "D": "The total amount owing to credit suppliers"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Control accounts",
+  "topic_code": "CA",
+  "explanation": "The closing (credit) balance on the payables control account is the total owed to credit suppliers."
+ },
+ {
+  "id": "2025-NOV-Q7",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Which principle of professional ethics is being described?",
+   "‘Accountants must be free from bias or conflict of interest.’"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Objectivity",
+   "D": "Professional behaviour"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Freedom from bias or conflict of interest is objectivity."
+ },
+ {
+  "id": "2025-NOV-Q8",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "Which one is a reason for a business to depreciate a non-current asset?"
+  ],
+  "options": {
+   "A": "To know the profit or loss on disposal",
+   "B": "To know the value at the end of its useful life",
+   "C": "To provide cash for its replacement",
+   "D": "To spread the cost over its expected useful life"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Depreciation & disposals",
+  "topic_code": "DEP",
+  "explanation": "Depreciation spreads the cost over the expected useful life."
+ },
+ {
+  "id": "2025-NOV-Q9",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "Which accounting concept is being described?",
+   "‘The skills and knowledge of a workforce are not shown as an asset in the financial statements.’"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Money measurement"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Workforce skills cannot be measured in money: money measurement."
+ },
+ {
+  "id": "2025-NOV-Q10",
+  "paper": "2025_NOV_QP_4AC1_1",
+  "year": 2025,
+  "month": "NOV",
+  "series": "October/November 2025",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "A business maintains a petty cash book with a float of $250. During the month the total expenses paid from petty cash were $180",
+   "Which amount is required to restore the float?"
+  ],
+  "options": {
+   "A": "$70",
+   "B": "$180",
+   "C": "$250",
+   "D": "$430"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Restore the amount spent: $180."
+ },
+ {
+  "id": "2026-MAY-Q1",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 1,
+  "stem": [
+   "When would a customer receive a cash discount?"
+  ],
+  "options": {
+   "A": "Bulk purchases",
+   "B": "Payment made by cash",
+   "C": "Payment made within agreed time",
+   "D": "Regular purchases"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Trade & cash discount",
+  "topic_code": "TD",
+  "explanation": "Cash discount is for payment within the agreed time."
+ },
+ {
+  "id": "2026-MAY-Q2",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 2,
+  "stem": [
+   "The employees of a business are highly skilled, but this is not recorded in the financial statements of a business.",
+   "Which accounting concept is being applied?"
+  ],
+  "options": {
+   "A": "Business entity",
+   "B": "Materiality",
+   "C": "Money measurement",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Employee skill has no reliable money value: money measurement."
+ },
+ {
+  "id": "2026-MAY-Q3",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 3,
+  "stem": [
+   "Inventory should be recorded at the lower of cost or net realisable value.",
+   "Which accounting concept is being applied?"
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Consistency",
+   "C": "Materiality",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Lower of cost or NRV avoids overstatement: prudence."
+ },
+ {
+  "id": "2026-MAY-Q4",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 4,
+  "stem": [
+   "Where are the accounts of credit suppliers maintained?"
+  ],
+  "options": {
+   "A": "Payables ledger",
+   "B": "Receivables ledger",
+   "C": "Purchases day book",
+   "D": "Sales day book"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "Credit suppliers' accounts are in the payables ledger."
+ },
+ {
+  "id": "2026-MAY-Q5",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 5,
+  "stem": [
+   "Which source document would show bank interest paid?"
+  ],
+  "options": {
+   "A": "Bank statement",
+   "B": "Cheque counterfoil",
+   "C": "Credit note",
+   "D": "Invoice"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "Bank interest paid first appears on the bank statement."
+ },
+ {
+  "id": "2026-MAY-Q6",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 6,
+  "stem": [
+   "Which is not a principle of professional ethics?"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Duality",
+   "C": "Integrity",
+   "D": "Objectivity"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Duality is an accounting concept, not an ethical principle."
+ },
+ {
+  "id": "2026-MAY-Q7",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 7,
+  "stem": [
+   "Which type of error was made when rent received from a tenant was debited to the rent receivable account and credited to the cash book?"
+  ],
+  "options": {
+   "A": "Commission",
+   "B": "Compensating",
+   "C": "Complete reversal",
+   "D": "Principle"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "The correct accounts were used but debit and credit were reversed: complete reversal."
+ },
+ {
+  "id": "2026-MAY-Q8",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 8,
+  "stem": [
+   "A payment for carriage inwards, $60, had been posted to the credit of carriage outwards.",
+   "Which entry would correct the error?"
+  ],
+  "options": null,
+  "table": {
+   "head": [
+    "Debit",
+    "Credit"
+   ],
+   "rows": {
+    "A": [
+     "Carriage inwards $60\nCarriage outwards $60",
+     "Suspense $120"
+    ],
+    "B": [
+     "Carriage inwards $60",
+     "Suspense $60"
+    ],
+    "C": [
+     "Suspense $60",
+     "Carriage inwards $60"
+    ],
+    "D": [
+     "Suspense $120",
+     "Carriage inwards $60\nCarriage outwards $60"
+    ]
+   }
+  },
+  "answer": "A",
+  "topic": "Errors & suspense",
+  "topic_code": "ER",
+  "explanation": "Debit carriage inwards $60 and debit carriage outwards $60 (to cancel the wrong credit); credit suspense $120."
+ },
+ {
+  "id": "2026-MAY-Q9",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 9,
+  "stem": [
+   "A business maintains a petty cash book with a float of $250. During the month, the total expenses paid from petty cash were $190",
+   "What amount was required to restore the float?"
+  ],
+  "options": {
+   "A": "$60",
+   "B": "$190",
+   "C": "$250",
+   "D": "$440"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Restore the amount spent: $190."
+ },
+ {
+  "id": "2026-MAY-Q10",
+  "paper": "2026_MAY_QP_4AC1_1",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "",
+  "q": 10,
+  "stem": [
+   "The discount column on the debit side of a trader’s cash book totalled $780 and the discount column on the credit side totalled $550",
+   "How much discount did the trader receive?"
+  ],
+  "options": {
+   "A": "$230",
+   "B": "$550",
+   "C": "$780",
+   "D": "$1330"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Discount received is the credit-side column: $550."
+ },
+ {
+  "id": "2026-MAY-R-Q1",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 1,
+  "stem": [
+   "Where is the sales account maintained?"
+  ],
+  "options": {
+   "A": "Journal",
+   "B": "Nominal ledger",
+   "C": "Receivables ledger",
+   "D": "Sales day book"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Books of original entry & ledgers",
+  "topic_code": "BOE",
+  "explanation": "The sales account is an impersonal account kept in the nominal (general) ledger."
+ },
+ {
+  "id": "2026-MAY-R-Q2",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 2,
+  "stem": [
+   "Which book of original entry is discount allowed recorded in?"
+  ],
+  "options": {
+   "A": "Cash book",
+   "B": "Petty cash book",
+   "C": "Purchases day book",
+   "D": "Sales day book"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Cash book & discounts",
+  "topic_code": "CB",
+  "explanation": "Discount allowed is recorded in the cash book discount column."
+ },
+ {
+  "id": "2026-MAY-R-Q3",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 3,
+  "stem": [
+   "Jones supplies goods to Richards on credit. Which document would Jones send when Richards buys goods?"
+  ],
+  "options": {
+   "A": "Purchase order",
+   "B": "Purchase invoice",
+   "C": "Sales invoice",
+   "D": "Statement of account"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Business documents",
+  "topic_code": "DOC",
+  "explanation": "The seller (Jones) sends a sales invoice."
+ },
+ {
+  "id": "2026-MAY-R-Q4",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 4,
+  "stem": [
+   "Which account balance could only appear on the credit side of a trial balance?"
+  ],
+  "options": {
+   "A": "Bank",
+   "B": "Cash",
+   "C": "Drawings",
+   "D": "Equity"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Equity can only be a credit balance. Bank can be either; cash and drawings are debits."
+ },
+ {
+  "id": "2026-MAY-R-Q5",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 5,
+  "stem": [
+   "Which account is credited when business owners take goods at cost price for their own use?"
+  ],
+  "options": {
+   "A": "Bank",
+   "B": "Drawings",
+   "C": "Purchases",
+   "D": "Sales"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Double entry & account balances",
+  "topic_code": "DE",
+  "explanation": "Goods taken for own use: debit Drawings, credit Purchases."
+ },
+ {
+  "id": "2026-MAY-R-Q6",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 6,
+  "stem": [
+   "Which statement is incorrect?"
+  ],
+  "options": {
+   "A": "Assets = liabilities + equity",
+   "B": "Equity = assets − liabilities",
+   "C": "Equity − liabilities = assets",
+   "D": "Liabilities = assets − equity"
+  },
+  "table": null,
+  "answer": "C",
+  "topic": "Accounting equation & classification",
+  "topic_code": "EQ",
+  "explanation": "Equity − liabilities ≠ assets."
+ },
+ {
+  "id": "2026-MAY-R-Q7",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 7,
+  "stem": [
+   "On 31 March 2026, Sheila’s bank statement showed a credit balance of $7 400.",
+   "Upon further investigation, she discovered that there was an unpresented cheque of $1 240 and an outstanding lodgement of $1 864",
+   "What was the bank balance in Sheila’s books on 31 March 2026?"
+  ],
+  "options": {
+   "A": "$6 776 (Cr)",
+   "B": "$6 776 (Dr)",
+   "C": "$8 024 (Cr)",
+   "D": "$8 024 (Dr)"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Bank & bank reconciliation",
+  "topic_code": "BR",
+  "explanation": "Bank statement $7 400 − unpresented cheque $1 240 + outstanding lodgement $1 864 = $8 024, a debit (money in bank) in Sheila's books."
+ },
+ {
+  "id": "2026-MAY-R-Q8",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 8,
+  "stem": [
+   "A business maintains a petty cash book with a float of $100",
+   "During the month of April 2026, total expenditure on petty cash was $76 and $4 was received from an employee in respect of a private phone call.",
+   "How much will the petty cashier receive at the end of the month from the chief cashier?"
+  ],
+  "options": {
+   "A": "$20",
+   "B": "$72",
+   "C": "$100",
+   "D": "$180"
+  },
+  "table": null,
+  "answer": "B",
+  "topic": "Petty cash",
+  "topic_code": "PC",
+  "explanation": "Net spending = $76 − $4 received = $72 to restore the $100 float."
+ },
+ {
+  "id": "2026-MAY-R-Q9",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 9,
+  "stem": [
+   "Which accounting concept is described in the statement:",
+   "“ Profits should not be overstated and losses should be provided for as soon as recognised”?"
+  ],
+  "options": {
+   "A": "Accruals",
+   "B": "Business entity",
+   "C": "Money measurement",
+   "D": "Prudence"
+  },
+  "table": null,
+  "answer": "D",
+  "topic": "Accounting concepts",
+  "topic_code": "CON",
+  "explanation": "Not overstating profit and providing for losses is prudence."
+ },
+ {
+  "id": "2026-MAY-R-Q10",
+  "paper": "2026_MAY_QP_4AC1_1R",
+  "year": 2026,
+  "month": "MAY",
+  "series": "May/June 2026",
+  "variant": "R",
+  "q": 10,
+  "stem": [
+   "Which principle of professional ethics is being described in the statement:",
+   "“ Accountants must not disclose sensitive information that would not be available to the public”?"
+  ],
+  "options": {
+   "A": "Confidentiality",
+   "B": "Integrity",
+   "C": "Objectivity",
+   "D": "Professional competence"
+  },
+  "table": null,
+  "answer": "A",
+  "topic": "Professional ethics",
+  "topic_code": "ETH",
+  "explanation": "Not disclosing sensitive information is confidentiality."
+ }
+]
