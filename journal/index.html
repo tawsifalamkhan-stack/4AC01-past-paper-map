@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="supported-color-schemes" content="dark">
+<title>The Journal Lab — IGCSE / O Level Accounting 4AC1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0B0B0C;
+  --panel:#12100F;
+  --paper:#F7F5F2;
+  --paper-line:#DFD9D2;
+  --red:#E1121C;
+  --red-ink:#B80D16;
+  --red-dark:#FF616B;
+  --blue:#1552C9;
+  --blue-dark:#6E9BFF;
+  --mute:#8A8580;
+  --mute-dark:#9A948D;
+  --ok:#12805C;
+  --ok-dark:#4ADE9A;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0;background:var(--ink);color:#EDEAE6;
+  font-family:'Manrope',system-ui,-apple-system,sans-serif;
+  font-size:16px;line-height:1.55;overflow-x:hidden;
+}
+.wrap{max-width:640px;margin:0 auto;padding:0 16px 120px;}
+
+/* ---------- header ---------- */
+header{padding:28px 0 18px;border-bottom:1px solid #241F1C;}
+.eyebrow{
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--mute-dark);margin:0 0 10px;
+}
+h1{
+  font-family:'Anton',Impact,'Arial Narrow',sans-serif;font-weight:400;
+  font-size:clamp(30px,9vw,54px);line-height:1.05;letter-spacing:-.005em;
+  margin:0;text-transform:uppercase;white-space:nowrap;
+}
+h1 .thin{color:var(--red-dark);}
+.sub{color:var(--mute-dark);font-size:14px;margin:12px 0 0;max-width:44ch;}
+
+/* ---------- tabs ---------- */
+nav.tabs{
+  position:sticky;top:0;z-index:40;background:var(--ink);
+  display:flex;gap:6px;padding:10px 0;margin:0 -16px;
+  padding-left:16px;padding-right:16px;overflow-x:auto;
+  border-bottom:1px solid #241F1C;scrollbar-width:none;
+}
+nav.tabs::-webkit-scrollbar{display:none;}
+.tab{
+  flex:0 0 auto;min-height:44px;padding:0 16px;border:1px solid #2C2724;
+  background:transparent;color:var(--mute-dark);border-radius:999px;
+  font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.1em;
+  text-transform:uppercase;cursor:pointer;transition:.18s;
+}
+.tab[aria-selected="true"]{background:var(--red);border-color:var(--red);color:#fff;font-weight:700;}
+
+section[hidden]{display:none;}
+.panelhead{margin:26px 0 14px;}
+.panelhead h2{
+  font-family:'Anton',sans-serif;font-weight:400;font-size:24px;letter-spacing:.01em;
+  text-transform:uppercase;margin:0;
+}
+.panelhead p{color:var(--mute-dark);font-size:13.5px;margin:6px 0 0;}
+
+/* ---------- rules board ---------- */
+.rulegrid{display:grid;gap:10px;margin-top:14px;}
+.rulecard{
+  background:var(--panel);border:1px solid #241F1C;border-radius:14px;
+  padding:14px 16px;display:grid;grid-template-columns:1fr auto;
+  gap:12px;align-items:center;
+}
+.rulecard .name{font-weight:700;font-size:15px;}
+.rulecard .note{color:var(--mute-dark);font-size:12.5px;margin-top:2px;}
+.sideTag{
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;
+  letter-spacing:.14em;padding:7px 11px;border-radius:8px;white-space:nowrap;
+}
+.dr{background:rgba(21,82,201,.16);color:var(--blue-dark);border:1px solid rgba(110,155,255,.35);}
+.cr{background:rgba(225,18,28,.14);color:var(--red-dark);border:1px solid rgba(255,97,107,.35);}
+
+.equation{
+  background:var(--paper);color:var(--ink);border-radius:14px;padding:18px 16px;margin-top:16px;
+}
+.equation .lbl{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#6B655F;}
+.equation .eq{font-family:'Anton',sans-serif;font-size:clamp(19px,6vw,26px);text-transform:uppercase;margin:8px 0 0;}
+.equation .eq b{color:var(--red-ink);font-weight:400;}
+
+/* ---------- filter chips ---------- */
+.chips{display:flex;gap:6px;overflow-x:auto;padding:2px 0 12px;margin:0 -16px;padding-left:16px;padding-right:16px;scrollbar-width:none;}
+.chips::-webkit-scrollbar{display:none;}
+.chip{
+  flex:0 0 auto;min-height:38px;padding:0 13px;border-radius:999px;cursor:pointer;
+  border:1px solid #2C2724;background:transparent;color:var(--mute-dark);
+  font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+}
+.chip[aria-pressed="true"]{background:#EDEAE6;color:var(--ink);border-color:#EDEAE6;font-weight:700;}
+
+/* ---------- ledger card ---------- */
+.card{
+  background:var(--paper);color:var(--ink);border-radius:16px;overflow:hidden;
+  margin-bottom:12px;box-shadow:0 1px 0 rgba(0,0,0,.4);
+}
+.cardtop{
+  width:100%;text-align:left;background:none;border:0;cursor:pointer;
+  padding:15px 16px;display:grid;grid-template-columns:30px 1fr 26px;gap:12px;align-items:center;
+  font-family:inherit;color:inherit;min-height:56px;
+}
+.idx{
+  font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;
+  color:#fff;background:var(--ink);border-radius:7px;
+  height:30px;display:flex;align-items:center;justify-content:center;
+}
+.card.open .idx{background:var(--red);}
+.ctitle{display:block;font-weight:800;font-size:15.5px;line-height:1.3;}
+.ctag{display:block;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#8A8580;margin-top:4px;}
+.caret{justify-self:end;color:#8A8580;font-size:20px;transition:transform .25s;line-height:1;}
+.card.open .caret{transform:rotate(45deg);color:var(--red-ink);}
+
+.body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .28s ease;}
+.card.open .body{grid-template-rows:1fr;}
+.bodyin{overflow:hidden;}
+.bodypad{padding:0 16px 16px;}
+
+/* journal table — the signature */
+.journal{border-top:2px solid var(--ink);margin-top:2px;}
+.jhead,.jrow{
+  display:grid;grid-template-columns:1fr 62px 62px;align-items:stretch;
+}
+.jhead div{
+  font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:#6B655F;padding:7px 6px;border-bottom:1px solid var(--paper-line);
+}
+.jhead div+div,.jrow div+div{border-left:1px solid var(--paper-line);text-align:right;}
+.jrow div{padding:9px 6px;border-bottom:1px solid var(--paper-line);font-size:13.5px;}
+.jrow .acct{font-family:'Manrope',sans-serif;}
+.jrow.indent .acct{padding-left:20px;}
+.jrow .num{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;color:#3A3532;}
+.jrow .num.d{color:#3A3532;}
+.jrow .num.c{color:#3A3532;}
+.isname{
+  display:inline-block;font-weight:800;padding:2px 8px 3px;border-radius:7px;line-height:1.25;
+}
+.isname em{
+  display:block;font-style:normal;font-family:'JetBrains Mono',monospace;
+  font-size:9px;letter-spacing:.14em;text-transform:uppercase;opacity:.72;margin-top:1px;
+}
+.isname.is-d{color:var(--red-ink);background:rgba(225,18,28,.09);box-shadow:inset 0 0 0 1px rgba(184,13,22,.28);}
+.isname.is-c{color:var(--blue);background:rgba(21,82,201,.09);box-shadow:inset 0 0 0 1px rgba(21,82,201,.3);}
+.tagd,.tagc{
+  font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:700;
+  letter-spacing:.1em;padding:1px 5px;border-radius:4px;margin-left:6px;vertical-align:2px;
+  background:#E4DFD9;color:#6B655F;
+}
+.narrative{
+  font-size:12.5px;font-style:italic;color:#57524D;padding:9px 6px 0;
+}
+.gap{height:9px;}
+
+.why{
+  margin-top:13px;background:#EFEBE6;border-left:3px solid var(--ink);
+  padding:11px 12px;border-radius:0 8px 8px 0;font-size:13px;color:#3A3532;
+}
+.why b{display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:#6B655F;margin-bottom:4px;}
+.why.tips{border-left-color:var(--red);}
+
+/* ---------- suspense panel ---------- */
+.subhead{
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--mute-dark);margin:26px 0 12px;font-weight:400;
+}
+.factgrid{display:grid;gap:10px;margin-top:16px;}
+.fact{background:var(--panel);border:1px solid #241F1C;border-radius:14px;padding:15px 16px;}
+.flbl{
+  display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--red-dark);margin-bottom:9px;
+}
+.fact ul,.fact ol{margin:0;padding-left:18px;color:#C8C2BB;font-size:14px;}
+.fact li{margin-bottom:6px;}
+.fact li:last-child{margin-bottom:0;}
+.taccount{border-top:2px solid var(--ink);font-size:13px;}
+.thead,.trow{display:grid;grid-template-columns:.8fr 1.5fr .8fr .8fr 1.5fr .8fr;}
+.thead div{
+  font-family:'JetBrains Mono',monospace;font-size:8.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:#6B655F;padding:6px 4px;border-bottom:1px solid var(--paper-line);
+}
+.trow div{padding:8px 4px;border-bottom:1px solid var(--paper-line);font-size:12px;}
+.thead div:nth-child(3),.thead div:nth-child(6),
+.trow div:nth-child(3),.trow div:nth-child(6){text-align:right;font-family:'JetBrains Mono',monospace;}
+.thead div:nth-child(4),.trow div:nth-child(4){border-left:2px solid var(--ink);}
+.trow.total div{border-top:1px solid var(--ink);border-bottom:3px double var(--ink);font-weight:700;}
+
+/* ---------- mcq ---------- */
+.drill{background:var(--panel);border:1px solid #241F1C;border-radius:16px;padding:18px 16px;}
+.paperref{
+  display:inline-block;font-family:'JetBrains Mono',monospace;font-size:9.5px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--red-dark);
+  border:1px solid rgba(255,97,107,.3);border-radius:5px;padding:3px 8px;margin-bottom:11px;
+}
+.qtext{font-size:16.5px;font-weight:700;line-height:1.42;margin:0 0 15px;}
+.qsub{font-size:14px;color:#C8C2BB;margin:-8px 0 15px;font-style:italic;}
+.opts{display:grid;gap:8px;}
+.opt{
+  display:grid;grid-template-columns:26px 1fr;gap:11px;align-items:start;text-align:left;
+  border:1px solid #2C2724;background:#181513;color:#EDEAE6;border-radius:12px;
+  padding:12px 13px;font-family:inherit;font-size:14px;line-height:1.4;cursor:pointer;min-height:48px;
+}
+.opt .ltr{
+  font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;color:var(--mute-dark);
+  border:1px solid #38312D;border-radius:6px;height:24px;display:flex;align-items:center;justify-content:center;
+}
+.opt:disabled{cursor:default;}
+.opt.right{border-color:rgba(74,222,154,.5);background:rgba(74,222,154,.1);}
+.opt.right .ltr{border-color:rgba(74,222,154,.5);color:var(--ok-dark);}
+.opt.wrong{border-color:rgba(255,97,107,.5);background:rgba(255,97,107,.09);}
+.opt.wrong .ltr{border-color:rgba(255,97,107,.5);color:var(--red-dark);}
+.opt.dim{opacity:.4;}
+.explain{
+  margin-top:14px;border-radius:12px;padding:12px 13px;font-size:13.5px;line-height:1.5;
+  background:#181513;border-left:3px solid var(--red);color:#C8C2BB;
+}
+.explain b{
+  display:block;font-family:'JetBrains Mono',monospace;font-size:9.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--mute-dark);margin-bottom:5px;
+}
+.mcqtable{font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.5;}
+.mcqtable span{display:block;}
+.deckbar{
+  display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--mute-dark);
+}
+.reshuffle{
+  background:none;border:1px solid #2C2724;color:var(--mute-dark);border-radius:999px;
+  padding:0 12px;min-height:34px;cursor:pointer;font:inherit;letter-spacing:.12em;
+}
+.progress{height:3px;background:#241F1C;border-radius:2px;overflow:hidden;margin-bottom:14px;}
+.progress span{display:block;height:100%;width:0;background:var(--red);transition:width .3s;}
+
+.flipwrap{perspective:1400px;}
+.flipper{
+  position:relative;width:100%;transform-style:preserve-3d;-webkit-transform-style:preserve-3d;
+  transition:transform .55s cubic-bezier(.2,.7,.3,1);cursor:pointer;
+}
+.flipper.flipped{transform:rotateY(180deg);}
+.face{
+  position:absolute;top:0;left:0;width:100%;
+  backface-visibility:hidden;-webkit-backface-visibility:hidden;
+  border-radius:18px;overflow:hidden;
+}
+.face.front{
+  background:var(--panel);border:1px solid #2C2724;
+  padding:26px 20px;display:flex;flex-direction:column;justify-content:space-between;min-height:260px;
+}
+.face.back{transform:rotateY(180deg);background:var(--paper);color:var(--ink);padding:20px 18px;}
+
+.fkicker{
+  font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:var(--red-dark);
+}
+.ftext{font-size:20px;font-weight:800;line-height:1.35;margin:16px 0 0;}
+.fhint{
+  font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:#4E4742;margin-top:22px;display:flex;align-items:center;gap:7px;
+}
+.fhint::before{content:'';width:16px;height:1px;background:#4E4742;}
+
+.bkicker{
+  font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.2em;
+  text-transform:uppercase;color:#6B655F;margin:0 0 4px;
+}
+.btitle{font-family:'Anton',sans-serif;font-size:17px;text-transform:uppercase;letter-spacing:.01em;margin:0 0 10px;}
+.markhint{
+  font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.16em;
+  text-transform:uppercase;color:#4E4742;text-align:center;margin:10px 0 0;
+}
+.drillbar{display:flex;gap:9px;margin-top:15px;}
+.drillbar.locked{opacity:.35;pointer-events:none;}
+.deckdone{
+  background:var(--panel);border:1px solid #241F1C;border-radius:18px;padding:30px 20px;text-align:center;
+}
+.deckdone h3{font-family:'Anton',sans-serif;font-size:26px;text-transform:uppercase;margin:0 0 8px;}
+.deckdone p{color:var(--mute-dark);font-size:14px;margin:0 0 18px;}
+.btn{
+  flex:1;min-height:48px;border:0;border-radius:12px;cursor:pointer;
+  font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;
+}
+.btn.primary{background:var(--red);color:#fff;}
+.btn.ghost{background:transparent;border:1px solid #2C2724;color:var(--mute-dark);}
+.btn:disabled{opacity:.35;cursor:not-allowed;}
+.score{
+  display:flex;gap:14px;margin-top:14px;font-family:'JetBrains Mono',monospace;
+  font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--mute-dark);
+}
+.score b{color:#EDEAE6;}
+
+/* ---------- errors ---------- */
+.pill{
+  display:inline-block;font-family:'JetBrains Mono',monospace;font-size:9.5px;
+  letter-spacing:.14em;text-transform:uppercase;padding:3px 8px;border-radius:5px;margin-bottom:8px;
+}
+.pill.tb-ok{background:rgba(18,128,92,.14);color:#0E6B4E;}
+.pill.tb-no{background:rgba(225,18,28,.12);color:var(--red-ink);}
+.scenario{
+  font-size:13.5px;background:#EFEBE6;padding:10px 12px;border-radius:8px;
+  color:#3A3532;margin-bottom:12px;
+}
+.scenario em{color:#6B655F;font-style:normal;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;display:block;margin-bottom:4px;}
+
+footer{
+  border-top:1px solid #241F1C;margin-top:40px;padding-top:20px;
+  font-size:12.5px;color:var(--mute-dark);
+}
+footer .brand{font-family:'Anton',sans-serif;font-size:17px;color:#EDEAE6;text-transform:uppercase;letter-spacing:.02em;}
+footer a{color:var(--red-dark);text-decoration:none;}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+:focus-visible{outline:2px solid var(--red-dark);outline-offset:2px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Edexcel 4AC1 · Paper 1 &amp; 2 · Accounting by TAK</p>
+  <h1>The Journal <span class="thin">Lab</span></h1>
+  <p class="sub">Every journal entry on the specification — the two sides, the amounts, and the narrative. Open a card to see the entry. Then drill it until the side is automatic.</p>
+</header>
+
+<nav class="tabs" role="tablist">
+  <button class="tab" role="tab" aria-selected="true" data-panel="rules">Which side?</button>
+  <button class="tab" role="tab" aria-selected="false" data-panel="entries"><span class="ecount">20</span> entries</button>
+  <button class="tab" role="tab" aria-selected="false" data-panel="errors">Correction of errors</button>
+  <button class="tab" role="tab" aria-selected="false" data-panel="suspense">Suspense account</button>
+  <button class="tab" role="tab" aria-selected="false" data-panel="mcq">Past paper MCQ</button>
+  <button class="tab" role="tab" aria-selected="false" data-panel="drill">Drill</button>
+</nav>
+
+<!-- ============ RULES ============ -->
+<section id="rules">
+  <div class="panelhead">
+    <h2>Pick the side first</h2>
+    <p>Before you write a single figure, decide which side each account goes. Everything below follows from one equation.</p>
+  </div>
+
+  <div class="equation">
+    <span class="lbl">The accounting equation</span>
+    <p class="eq">Assets = <b>Equity</b> + <b>Liabilities</b></p>
+  </div>
+
+  <div class="rulegrid" id="rulegrid"></div>
+
+  <div class="why exam" style="background:var(--panel);color:#C8C2BB;border-left-color:var(--red);margin-top:16px;">
+    <b>Where marks are lost</b>
+    Examiner reports on 4AC1 repeatedly flag weak double-entry basics. In the journal, a mark is awarded for <strong style="color:#EDEAE6">details and amount in combination</strong> — the right account on the wrong side scores nothing, and a right side with a missing account name scores nothing either.
+  </div>
+</section>
+
+<!-- ============ ENTRIES ============ -->
+<section id="entries" hidden>
+  <div class="panelhead">
+    <h2>The <span class="ecount">20</span> entries</h2>
+    <p>From the Format Booklet, Topic 1. Tap any card to open the journal.</p>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div id="cards"></div>
+</section>
+
+<!-- ============ ERRORS ============ -->
+<section id="errors" hidden>
+  <div class="panelhead">
+    <h2>Correction of errors</h2>
+    <p>The seven errors a trial balance cannot catch. Every one of them still leaves the two totals in agreement.</p>
+  </div>
+  <div id="errcards"></div>
+</section>
+
+<!-- ============ SUSPENSE ============ -->
+<section id="suspense" hidden>
+  <div class="panelhead">
+    <h2>Suspense account</h2>
+    <p>What to do when the two totals of the trial balance refuse to agree.</p>
+  </div>
+
+  <div class="equation">
+    <span class="lbl">The one-line rule</span>
+    <p class="eq">One side <b>missing</b> or <b>wrong</b> &rarr; suspense</p>
+  </div>
+
+  <div class="factgrid">
+    <div class="fact">
+      <span class="flbl">A suspense account opens when</span>
+      <ul>
+        <li>only one side of an entry was posted</li>
+        <li>both entries went on the same side</li>
+        <li>the two sides were posted at different amounts</li>
+        <li>an account was overcast or undercast</li>
+      </ul>
+    </div>
+    <div class="fact">
+      <span class="flbl">How to close it</span>
+      <ol>
+        <li>Put the trial balance difference in as the opening balance.</li>
+        <li>Journalise each error; any one-sided error has suspense as its other half.</li>
+        <li>Post every suspense line into the account.</li>
+        <li>If your work is right, it closes to nil.</li>
+      </ol>
+    </div>
+  </div>
+
+  <h3 class="subhead">The three shapes</h3>
+  <div id="suspcards"></div>
+
+  <h3 class="subhead">Worked example</h3>
+  <div class="card">
+    <div class="bodypad" style="padding-top:16px">
+      <div class="scenario"><em>The situation</em>The credit total of the trial balance was $500 more than the debit total, so $500 was entered on the debit side of a suspense account. Two errors were then found: the sales account had been overcast by $300, and a cash payment for stationery of $200 had been credited to the bank account but never debited to stationery.</div>
+      <p class="bkicker">Journal</p>
+      <div id="suspJournal"></div>
+      <p class="bkicker" style="margin-top:16px">Suspense account</p>
+      <div class="taccount">
+        <div class="thead"><div>Date</div><div>Details</div><div>$</div><div>Date</div><div>Details</div><div>$</div></div>
+        <div class="trow"><div>Jan 1</div><div>Balance b/d</div><div>500</div><div>Dec 31</div><div>Sales</div><div>300</div></div>
+        <div class="trow"><div></div><div></div><div></div><div>Dec 31</div><div>Stationery</div><div>200</div></div>
+        <div class="trow total"><div></div><div></div><div>500</div><div></div><div></div><div>500</div></div>
+      </div>
+      <div class="why tips"><b>Tips to remember</b>The difference goes in first, on whichever side makes the trial balance agree. Every one-sided error you correct pushes an amount into suspense on the opposite side. When the last error is cleared the account must total to nil — if it does not, one of your corrections is wrong.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MCQ ============ -->
+<section id="mcq" hidden>
+  <div class="panelhead">
+    <h2>Past paper MCQ</h2>
+    <p>Errors and suspense multiple choice from Paper 1, 2020 to 2025. Tap an answer to check it.</p>
+  </div>
+  <div class="deckbar">
+    <span id="mcqPos">Question 1</span>
+    <button class="reshuffle" id="mcqRestart">Restart</button>
+  </div>
+  <div class="progress"><span id="mcqFill"></span></div>
+  <div class="drill" id="mcqCard"></div>
+  <div class="drillbar">
+    <button class="btn primary" id="mcqNext" disabled>Next question</button>
+  </div>
+  <div class="score">
+    <span>Correct <b id="mCorrect">0</b></span>
+    <span>Answered <b id="mTotal">0</b></span>
+  </div>
+</section>
+
+<!-- ============ DRILL ============ -->
+<section id="drill" hidden>
+  <div class="panelhead">
+    <h2>Drill</h2>
+    <p>Say the two sides out loud, then flip the card to check yourself.</p>
+  </div>
+
+  <div class="deckbar">
+    <span id="deckPos">Card 1 of 20</span>
+    <button class="reshuffle" id="reshuffle">Reshuffle</button>
+  </div>
+  <div class="progress"><span id="progressFill"></span></div>
+
+  <div class="flipwrap" id="flipwrap">
+    <div class="flipper" id="flipper">
+      <div class="face front" id="front"></div>
+      <div class="face back" id="back"></div>
+    </div>
+  </div>
+
+  <div class="drillbar" id="selfmark">
+    <button class="btn ghost" id="againBtn">Review again</button>
+    <button class="btn primary" id="gotBtn">Got it</button>
+  </div>
+  <p class="markhint" id="markhint">Tap the card to flip it.</p>
+
+  <div class="score">
+    <span>Known <b id="sCorrect">0</b></span>
+    <span>Seen <b id="sTotal">0</b></span>
+    <span>Left in deck <b id="sLeft">20</b></span>
+  </div>
+</section>
+
+<footer>
+  <p class="brand">Accounting by TAK</p>
+  <p>Vertical Horizon · IGCSE (9-1) &amp; O Level Accounting 4AC1<br>
+  WhatsApp <a href="https://wa.me/8801729292952">+880 1729 292952</a></p>
+</footer>
+
+</div>
+
+<script>
+/* ---------------- data ---------------- */
+const RULES = [
+  {name:'Assets increase', note:'Machinery, inventory, trade receivables, bank', side:'DEBIT'},
+  {name:'Assets decrease', note:'Asset sold, cash paid out, customer settles', side:'CREDIT'},
+  {name:'Expenses &amp; losses', note:'Rent, wages, irrecoverable debts, loss on disposal', side:'DEBIT'},
+  {name:'Income &amp; gains', note:'Sales, discount received, gain on disposal', side:'CREDIT'},
+  {name:'Liabilities increase', note:'Trade payables, other payables, loan taken', side:'CREDIT'},
+  {name:'Liabilities decrease', note:'Supplier paid, loan repaid', side:'DEBIT'},
+  {name:'Capital increase', note:'Owner introduces capital, profit for the year', side:'CREDIT'},
+  {name:'Drawings', note:'Cash or goods taken by the owner', side:'DEBIT'}
+];
+
+const CATS = [
+  {id:'all',  label:'All'},
+  {id:'dep',  label:'Depreciation &amp; disposal'},
+  {id:'debt', label:'Irrecoverable debts'},
+  {id:'adj',  label:'Year-end adjustments'},
+  {id:'cap',  label:'Capital &amp; settlement'},
+  {id:'led',  label:'Bank &amp; credit dealings'}
+];
+
+const ENTRIES = [
+{n:1,cat:'dep',t:'Provision for depreciation',tag:'Charge for the year',
+ lines:[{a:'Income statement',s:'d'},{a:'Provision for depreciation',s:'c'}],
+ nar:'Being record of provision for depreciation on non-current assets for the year.',
+ tip:'Never touch the asset account. Cost stays as cost. Depreciation is an expense, so debit the income statement, and the provision account collects it year after year. Carrying value = cost \u2212 provision.'},
+
+{n:2,cat:'dep',t:'Sale of a non-current asset',tag:'Three entries',
+ lines:[{a:'Disposal',s:'d'},{a:'Non-current asset',s:'c'},{gap:true},
+        {a:'Provision for depreciation',s:'d'},{a:'Disposal',s:'c'},{gap:true},
+        {a:'Bank / Cash / Trade receivable',s:'d'},{a:'Disposal',s:'c'}],
+ nar:'Being record of sale of non-current asset for cash or on credit.',
+ tip:'Three entries, always in this order: cost out, depreciation out, money in. Use the full cost, not the carrying value. Whatever is left in the disposal account is the gain or loss.'},
+
+{n:3,cat:'dep',t:'Gain on disposal',tag:'Proceeds above carrying value',
+ lines:[{a:'Disposal',s:'d'},{a:'Income statement',s:'c'}],
+ nar:'Being record of gain on sale of non-current asset.',
+ tip:'Sold for more than it was worth. A gain is income, and income is always credited.'},
+
+{n:4,cat:'dep',t:'Loss on disposal',tag:'Proceeds below carrying value',
+ lines:[{a:'Income statement',s:'d'},{a:'Disposal',s:'c'}],
+ nar:'Being record of loss on sale of non-current asset.',
+ tip:'Sold for less than it was worth. A loss is an expense, and expenses are always debited. Same entry as a gain, just flipped.'},
+
+{n:5,cat:'debt',t:'Irrecoverable debt written off',tag:'Prudence',
+ lines:[{a:'Irrecoverable debts',s:'d'},{a:'Trade receivable',s:'c'}],
+ nar:'Being record of trade receivable declared irrecoverable.',
+ tip:'The customer will never pay. Take the debt out of trade receivables and turn it into an expense. The book of original entry is the journal.'},
+
+{n:6,cat:'debt',t:'Increase in provision for irrecoverable debts',tag:'Expense',
+ lines:[{a:'Income statement',s:'d'},{a:'Provision for irrecoverable debts',s:'c'}],
+ nar:'Being record of increase in provision for irrecoverable debts.',
+ tip:'Only the change goes to the income statement, never the whole provision. More provision means more expense, so debit.'},
+
+{n:7,cat:'debt',t:'Decrease in provision for irrecoverable debts',tag:'Other income',
+ lines:[{a:'Provision for irrecoverable debts',s:'d'},{a:'Income statement',s:'c'}],
+ nar:'Being record of decrease in provision for irrecoverable debts.',
+ tip:'Less provision means income, so credit. Same rule as an increase, opposite side.'},
+
+{n:8,cat:'debt',t:'Irrecoverable debt recovered',tag:'Two entries',
+ lines:[{a:'Bank / Cash',s:'d'},{a:'Trade receivable',s:'c'},{gap:true},
+        {a:'Trade receivable',s:'d'},{a:'Irrecoverable debts recovered',s:'c'}],
+ nar:'Being record of a debt previously written off now recovered.',
+ tip:'Two steps: take the money in, then bring the customer back and record the income. The two receivable entries cancel each other out. Write \u201cirrecoverable debts recovered\u201d, not \u201cbad debts\u201d.'},
+
+{n:9,cat:'adj',t:'Expense payable',tag:'Accrued \u00b7 owing \u00b7 due',
+ lines:[{a:'Income statement',s:'d'},{a:'Expense',s:'c'}],
+ nar:'Being record of expense unpaid at the year end.',
+ tip:'Owing means charge more, so debit the income statement. Expense = payment + closing owing \u2212 opening owing. The balance left is Other payables.'},
+
+{n:10,cat:'adj',t:'Expense in advance',tag:'Prepaid \u00b7 advance',
+ lines:[{a:'Expense',s:'d'},{a:'Income statement',s:'c'}],
+ nar:'Being record of expense paid in advance at the year end.',
+ tip:'Prepaid means charge less, so credit the income statement. Expense = payment \u2212 closing advance + opening advance. The balance left is Other receivables.'},
+
+{n:11,cat:'adj',t:'Closing inventories',tag:'Year-end count',
+ lines:[{a:'Inventory',s:'d'},{a:'Income statement',s:'c'}],
+ nar:'Being record of closing inventories at the year end.',
+ tip:'Not sold yet, so it cannot be a cost. Credit the income statement and keep it as an asset. Always value at cost, never at selling price.'},
+
+{n:12,cat:'adj',t:'Inventories withdrawn by the owner',tag:'Business entity',
+ lines:[{a:'Drawings',s:'d'},{a:'Purchases',s:'c'}],
+ nar:'Being record of goods withdrawn by the owner for personal use.',
+ tip:'The owner took goods, not money. Credit purchases at cost \u2014 never sales, never selling price. Add it to the cash drawings already in the trial balance.'},
+
+{n:13,cat:'cap',t:'New capital introduced',tag:'Opening journal',
+ lines:[{a:'Assets',s:'d'},{a:'Liabilities',s:'c'},{a:'Capital / Equity',s:'c'}],
+ nar:'Being record of assets and liabilities introduced by the owner.',
+ tip:'Debit every asset, credit every liability, and capital is whatever makes the two columns agree. This question always asks for a narrative \u2014 write it.'},
+
+{n:14,cat:'cap',t:'Discount allowed',tag:'Given to customers',
+ lines:[{a:'Discount allowed',s:'d'},{a:'Trade receivable',s:'c'}],
+ nar:'Being record of cash discount allowed to a credit customer.',
+ tip:'Allowed means given away, so it is an expense \u2014 debit. Cash discount only; a trade discount never appears in the ledger.'},
+
+{n:15,cat:'cap',t:'Discount received',tag:'Taken from suppliers',
+ lines:[{a:'Trade payable',s:'d'},{a:'Discount received',s:'c'}],
+ nar:'Being record of cash discount received from a supplier.',
+ tip:'Received means a saving, so it is income \u2014 credit. Debit the supplier because we now owe them less.'},
+
+{n:16,cat:'cap',t:'Set off (contra)',tag:'Same person, both ledgers',
+ lines:[{a:'Trade payable control',s:'d'},{a:'Trade receivable control',s:'c'}],
+ nar:'Being record of transfer between the trade receivable and trade payable ledgers.',
+ tip:'The same person owes us and we owe them. Cancel the smaller balance against the larger. In a control account it is always dated the closing date.'},
+
+{n:17,cat:'led',t:'Dishonoured cheque',tag:'Cheque bounced',
+ lines:[{a:'Trade receivable',s:'d'},{a:'Bank',s:'c'}],
+ nar:'Being record of a cheque received from a credit customer returned unpaid by the bank.',
+ tip:'The cheque bounced, so simply reverse the receipt: money leaves the bank and the customer owes it again.'}
+];
+
+const ERRORS = [
+{t:'Error of omission',tb:'ok',
+ sc:'A credit purchase of £500 from AB Ltd was never entered in the books at all.',
+ lines:[{a:'Purchases',s:'d',v:'500'},{a:'AB Ltd',s:'c',v:'500'}],
+ why:'Nothing was recorded, so the correction is simply the original entry made properly. Both sides are still equal, so the trial balance never noticed.'},
+{t:'Error of commission',tb:'ok',
+ sc:'Goods of £500 were bought from AB Ltd, but CD Ltd was credited by mistake.',
+ lines:[{a:'CD Ltd',s:'d',v:'500'},{a:'AB Ltd',s:'c',v:'500'}],
+ why:'Right type of account, wrong person. Cancel the wrong account, then post to the correct one.'},
+{t:'Error of principle',tb:'ok',
+ sc:'A motor van of £10 000 was bought by cheque, but motor expenses was debited instead of motor vehicles.',
+ lines:[{a:'Motor vehicles',s:'d',v:'10 000'},{a:'Motor expenses',s:'c',v:'10 000'}],
+ why:'Capital expenditure was treated as revenue expenditure — a completely different class of account. Profit is understated and non-current assets are understated.'},
+{t:'Error of original entry',tb:'ok',
+ sc:'Goods of £4 000 were sold to Alex on credit, but both accounts were recorded as £4 500.',
+ lines:[{a:'Sales',s:'d',v:'500'},{a:'Alex',s:'c',v:'500'}],
+ why:'The wrong figure was used consistently on both sides. Correct only the £500 difference, not the whole amount.'},
+{t:'Error of transposition',tb:'ok',
+ sc:'Goods of £54 were sold to Alex on credit, but both accounts were recorded as £45.',
+ lines:[{a:'Alex',s:'d',v:'9'},{a:'Sales',s:'c',v:'9'}],
+ why:'Digits were reversed on both sides, so the entry is understated by £9. Note that a transposition on one side only is always divisible by 9.'},
+{t:'Reversal of entries',tb:'ok',
+ sc:'Goods of £300 were sold to Alex on credit, but Alex was credited and sales debited.',
+ lines:[{a:'Alex',s:'d',v:'600'},{a:'Sales',s:'c',v:'600'}],
+ why:'Double the amount. The first £300 cancels the wrong entry, the second £300 records the transaction correctly.'},
+{t:'Compensating error',tb:'ok',
+ sc:'Both the sales account and the purchases account were undercast by £100.',
+ lines:[{a:'Purchases',s:'d',v:'100'},{a:'Sales',s:'c',v:'100'}],
+ why:'Two separate errors of equal size on opposite sides cancel each other out, so the totals still agree.'},
+];
+
+const SUSPENSE = [
+{t:'One entry only',tb:'no',
+ sc:'Goods of £500 were sold by cheque, but only the sales account was credited.',
+ lines:[{a:'Bank',s:'d',v:'500'},{a:'Suspense',s:'c',v:'500'}],
+ why:'Supply the missing half and let suspense absorb the other side. If instead only Bank had been debited, the correction would be Dr Suspense £500, Cr Sales £500.'},
+{t:'Both entries on the same side',tb:'no',
+ sc:'Goods of £500 were sold by cheque, but both bank and sales were credited.',
+ lines:[{a:'Bank',s:'d',v:'1 000'},{a:'Suspense',s:'c',v:'1 000'}],
+ why:'Bank should be £500 debit but sits as £500 credit, so it is out by £1 000. Whenever an entry is on the wrong side, double the amount.'},
+{t:'Two different amounts',tb:'no',
+ sc:'Goods of £500 were sold by cheque. Bank was debited £500 but sales was credited only £50.',
+ lines:[{a:'Suspense',s:'d',v:'450'},{a:'Sales',s:'c',v:'450'}],
+ why:'Only the £450 shortfall on the credit side needs fixing. The debit side was already right, so leave it alone.'}
+];
+
+const SUSP_JOURNAL = [
+ {a:'Sales',s:'d',v:'300'},{a:'Suspense',s:'c',v:'300'},{gap:true},
+ {a:'Stationery',s:'d',v:'200'},{a:'Suspense',s:'c',v:'200'}
+];
+
+const MCQ = [
+{ref:'May 2025R · Paper 1 · Q5',
+ q:'When is a suspense account opened?',
+ o:['The business makes a loss for the year','The business makes a profit for the year','The trial balance balances','The trial balance does not balance'],
+ a:3,
+ e:'A suspense account exists only to hold a difference. If the two totals already agree there is nothing to hold, and profit or loss has nothing to do with it.'},
+
+{ref:'May 2024R · Paper 1 · Q15(b)',
+ q:'What is the name of the account opened when a trial balance does not balance?',
+ o:['Difference account','Error account','Suspense account','Trial account'],
+ a:2,
+ e:'One mark, one word. Learn the exact term — "difference account" scores nothing.'},
+
+{ref:'May 2022 · Paper 1 · Q4',
+ q:'A sales invoice for $500 is entered in the sales day book as $450. What type of error is this?',
+ o:['Commission','Compensating','Original entry','Principle'],
+ a:2,
+ e:'The mistake happened when the figure was copied from the invoice into the book of original entry, so both sides carry the same wrong amount and the trial balance still agrees.'},
+
+{ref:'Nov 2021 · Paper 1 · Q14(c)',
+ q:'A payment for general expenses was posted to the drawings account. What type of error is this?',
+ o:['Commission','Omission','Original entry','Principle'],
+ a:3,
+ e:'Drawings is a completely different class of account from an expense, so this is principle. If it had gone to another expense account, such as rent, it would be commission.'},
+
+{ref:'Nov 2021 · Paper 1 · Q14(c)',
+ q:'A payment for stationery was posted to the rent paid account. What type of error is this?',
+ o:['Commission','Compensating','Principle','Reversal'],
+ a:0,
+ e:'Both stationery and rent are expenses, so it is the right class of account but the wrong one — commission.'},
+
+{ref:'May 2023R · Paper 1 · Q16(b)',
+ q:'A cash purchase was debited to the cash account and credited to the purchases account. What type of error is this?',
+ o:['Commission','Complete reversal','Compensating','Original entry'],
+ a:1,
+ e:'Both entries are on the wrong side. To correct it you must post double the amount — one lot to cancel and one lot to record it properly.'},
+
+{ref:'May 2023R · Paper 1 · Q16(b)',
+ q:'A purchase invoice was never entered in the day book at all. What type of error is this?',
+ o:['Commission','Omission','Original entry','Principle'],
+ a:1,
+ e:'Nothing was recorded on either side, so the trial balance still agrees. The correction is simply the original entry, made properly.'},
+
+{ref:'Jan 2023 · Paper 1 · Q9',
+ q:'Which error would be revealed by preparing a trial balance?',
+ o:['Credit sales of $500 entered on both sides of the ledger as $50','Discount allowed of $60 posted to the credit side of the discount allowed account','The purchases account and the sales account both overcast by $650','Credit purchases of $290 omitted from the books entirely'],
+ a:1,
+ e:'B puts an amount on the wrong side, so the two totals differ by $120 and a suspense account is needed. The other three keep debits and credits equal, so the trial balance sees nothing wrong.'},
+
+{ref:'Jan 2023 · Paper 1 · Q15(c)(ii)',
+ q:'Which of these errors does NOT affect the balancing of a trial balance?',
+ o:['A sales figure posted to only one account','Compensating error','The purchases day book undercast','A payment entered as $90 on one side and $9 on the other'],
+ a:1,
+ e:'A compensating error is two mistakes of equal size on opposite sides, so they cancel out. The other three leave one side short and force a suspense account open.'},
+
+{ref:'Jan 2023 · Paper 1 · Q8',
+ q:'Returns inwards of $150 was posted to the credit of the returns outwards account. How is this corrected?',
+ o:['Dr Returns inwards $150 and Dr Returns outwards $150; Cr Suspense $300','Dr Suspense $300; Cr Returns inwards $150 and Cr Returns outwards $150','Dr Returns inwards $150; Cr Suspense $150','Dr Returns outwards $150; Cr Suspense $150'],
+ a:0,
+ e:'Two things went wrong. Returns inwards never got its $150 debit, and returns outwards was wrongly credited $150, so it needs a $150 debit to cancel. Debits total $300, and suspense takes the credit.'},
+
+{ref:'Nov 2020R · Paper 1 · Q10',
+ q:'Discount allowed of $30 was posted to the credit of the discount received account. Which entry corrects it?',
+ o:['Dr Discount allowed $30 and Dr Discount received $30; Cr Suspense $60','Dr Discount received $30; Cr Suspense $30','Dr Suspense $30; Cr Discount allowed $30','Dr Suspense $60; Cr Discount allowed $30 and Cr Discount received $30'],
+ a:0,
+ e:'Same shape as the returns question. Discount allowed is missing a $30 debit, and discount received needs a $30 debit to cancel the wrong credit. Suspense picks up the $60.'},
+
+{ref:'Nov 2021 · Paper 1 · Q10',
+ q:'A payment for rent of $20 was posted to the credit of the rent received account. Which entry corrects it?',
+ o:['Dr Rent paid $20 and Dr Rent received $20; Cr Suspense $40','Dr Rent received $20; Cr Suspense $20','Dr Suspense $20; Cr Rent paid $20','Dr Suspense $40; Cr Rent paid $20 and Cr Rent received $20'],
+ a:0,
+ e:'This exact pattern has now come up three times. An amount landed on the credit of the wrong account instead of the debit of the right one, so you debit both accounts and credit suspense with double.'},
+
+{ref:'May 2023R · Paper 1 · Q16(c)',
+ q:'The discount received account and the discount allowed account have both been overstated by the same amount. Which account is debited to correct this?',
+ o:['Discount allowed','Discount received','Suspense','No entry is needed'],
+ a:1,
+ e:'Discount received is income with a credit balance, so debiting it brings it down. Discount allowed is an expense with a debit balance, so it is credited. This is a compensating error, which means no suspense account is involved.'},
+
+{ref:'May 2022 · Paper 1 · Q8',
+ q:'Revenue expenditure has been treated as capital expenditure. What is the effect on profit?',
+ o:['Gross profit overstated','Gross profit understated','Profit for the year overstated','Profit for the year understated'],
+ a:2,
+ e:'An expense was left out of the income statement and put into non-current assets instead, so expenses are too low and profit is too high. Gross profit is untouched because this is not part of cost of sales.'}
+];
+
+const DRILL = [
+ {q:'A machine is depreciated by $3 400 for the year.',d:'Income statement',c:'Provision for depreciation',fix:'Depreciation is an expense (debit) and it builds up in the provision account (credit). The machinery account is never touched.'},
+ {q:'A machine that cost $8 000 is sold. Remove the cost from the books.',d:'Disposal',c:'Machinery',fix:'The full cost — not the carrying value — moves out of the asset account and into disposal.'},
+ {q:'Accumulated depreciation of $4 000 on the machine sold is transferred out.',d:'Provision for depreciation',c:'Disposal',fix:'The provision account is a credit balance, so clearing it needs a debit. The disposal account receives the credit.'},
+ {q:'Sale proceeds of $4 600 for the machine are received by cheque.',d:'Bank',c:'Disposal',fix:'Money in is a debit to bank. The disposal account is credited with what the asset actually fetched.'},
+ {q:'The disposal account shows a gain of $600.',d:'Disposal',c:'Income statement',fix:'A gain is other income, so it is credited to the income statement and the disposal account is closed by the debit.'},
+ {q:'The disposal account shows a loss of $600.',d:'Income statement',c:'Disposal',fix:'A loss is an expense — debit the income statement.'},
+ {q:'A debt of $340 owed by Gigi Ltd is written off as irrecoverable.',d:'Irrecoverable debts',c:'Trade receivable',fix:'The asset disappears (credit) and the amount becomes an expense (debit).'},
+ {q:'The provision for irrecoverable debts is increased by $180.',d:'Income statement',c:'Provision for irrecoverable debts',fix:'An increase in provision is an expense. Only the movement goes to the income statement.'},
+ {q:'The provision for irrecoverable debts is reduced by $120.',d:'Provision for irrecoverable debts',c:'Income statement',fix:'A reduction is other income — the exact mirror of an increase.'},
+ {q:'A customer whose debt was written off last year pays $210. Reinstate the debt.',d:'Trade receivable',c:'Irrecoverable debts recovered',fix:'The customer\u2019s account is brought back so the ledger shows the debt was settled. The recovery is credited to income, never back to the original expense.'},
+ {q:'Wages of $500 are owing at the year end.',d:'Income statement',c:'Expense',fix:'Accruals concept — the income statement is charged with the full amount incurred, and the expense account is left owing $500 as a current liability.'},
+ {q:'Rent of $2 000 has been paid in advance at the year end.',d:'Expense',c:'Income statement',fix:'The income statement is credited so the prepayment is stripped out of this year\u2019s charge. The expense account carries a debit balance down as a current asset.'},
+ {q:'Closing inventory is valued at $8 162.',d:'Inventory',c:'Income statement',fix:'Unsold goods come out of cost of sales and become a current asset.'},
+ {q:'The owner takes goods costing $550 for personal use.',d:'Drawings',c:'Purchases',fix:'Credit purchases at cost — never sales, and never at selling price.'},
+ {q:'A cash discount of $45 is allowed to a credit customer on early settlement.',d:'Discount allowed',c:'Trade receivable',fix:'The customer owes less (credit) and the shortfall is an expense (debit).'},
+ {q:'A cash discount of $60 is received from a supplier for paying early.',d:'Trade payable',c:'Discount received',fix:'The liability is cleared (debit) and the saving is other income (credit).'},
+ {q:'A contra of $130 is agreed with a person who is both a customer and a supplier.',d:'Trade payable control',c:'Trade receivable control',fix:'The set-off reduces both balances. Debit payables control, credit receivables control.'},
+ {q:'A motor van bought on credit was posted to motor expenses. Correct the error.',d:'Motor vehicles',c:'Motor expenses',fix:'Error of principle. Capital expenditure was recorded as revenue expenditure.'},
+ {q:'A cheque for $340 received from a credit customer is returned unpaid by the bank.',d:'Trade receivable',c:'Bank',fix:'The exact reverse of the receipt. The money leaves the bank and the customer owes it again.'},
+ {q:'A sale of $300 to Alex was recorded with Alex credited and sales debited. Correct it.',d:'Alex',c:'Sales',fix:'Reversal of entries — the correction is double the original amount, $600.'},
+ {q:'Goods sold for $500 by cheque were credited to sales but no debit was made. Correct it.',d:'Bank',c:'Suspense',fix:'The missing half of the entry is supplied and suspense absorbs the difference.'}
+];
+
+/* ---------------- helpers ---------------- */
+const $=s=>document.querySelector(s);
+const $$=s=>[...document.querySelectorAll(s)];
+
+/* tabs */
+$$('.tab').forEach(t=>t.addEventListener('click',()=>{
+  $$('.tab').forEach(x=>x.setAttribute('aria-selected','false'));
+  t.setAttribute('aria-selected','true');
+  ['rules','entries','errors','suspense','mcq','drill'].forEach(id=>$('#'+id).hidden = (id!==t.dataset.panel));
+  if(t.dataset.panel==='drill' && window.sizeCard) requestAnimationFrame(()=>window.sizeCard());
+  window.scrollTo({top:0,behavior:'smooth'});
+}));
+
+/* rules */
+$('#rulegrid').innerHTML = RULES.map(r=>`
+  <div class="rulecard">
+    <div><div class="name">${r.name}</div><div class="note">${r.note}</div></div>
+    <span class="sideTag ${r.side==='DEBIT'?'dr':'cr'}">${r.side}</span>
+  </div>`).join('');
+
+/* entry cards */
+function journalHTML(lines, showVals){
+  let rows='';
+  lines.forEach(l=>{
+    if(l.gap){rows+='<div class="gap"></div>';return;}
+    const v = showVals ? l.v : 'XXX';
+    const isIS = /income statement/i.test(l.a);
+    const name = isIS
+      ? `<span class="isname ${l.s==='d'?'is-d':'is-c'}">${l.a}<em>${l.s==='d'?'profit down':'profit up'}</em></span>`
+      : l.a;
+    rows+=`<div class="jrow ${l.s==='c'?'indent':''}">
+      <div class="acct">${name}<span class="${l.s==='d'?'tagd':'tagc'}">${l.s==='d'?'DR':'CR'}</span></div>
+      <div class="num d">${l.s==='d'?v:''}</div>
+      <div class="num c">${l.s==='c'?v:''}</div>
+    </div>`;
+  });
+  return `<div class="journal">
+    <div class="jhead"><div>Details</div><div>Debit</div><div>Credit</div></div>
+    ${rows}
+  </div>`;
+}
+
+function renderCards(cat){
+  const list = cat==='all' ? ENTRIES : ENTRIES.filter(e=>e.cat===cat);
+  $('#cards').innerHTML = list.map(e=>`
+    <article class="card" data-n="${e.n}">
+      <button class="cardtop" aria-expanded="false">
+        <span class="idx">${e.n}</span>
+        <span><span class="ctitle">${e.t}</span><span class="ctag">${e.tag}</span></span>
+        <span class="caret">+</span>
+      </button>
+      <div class="body"><div class="bodyin"><div class="bodypad">
+        ${journalHTML(e.lines,false)}
+        <p class="narrative">(${e.nar})</p>
+        <div class="why tips"><b>Tips to remember</b>${e.tip}</div>
+      </div></div></div>
+    </article>`).join('');
+  bindCards('#cards');
+}
+function bindCards(sel){
+  document.querySelector(sel).querySelectorAll('.cardtop').forEach(b=>{
+    b.addEventListener('click',()=>{
+      const c=b.closest('.card'), open=c.classList.toggle('open');
+      b.setAttribute('aria-expanded',open);
+    });
+  });
+}
+
+$('#chips').innerHTML = CATS.map((c,i)=>{
+  const n = c.id==='all' ? ENTRIES.length : ENTRIES.filter(e=>e.cat===c.id).length;
+  return `<button class="chip" aria-pressed="${i===0}" data-cat="${c.id}">${c.label} ${n}</button>`;
+}).join('');
+document.querySelectorAll('.ecount').forEach(el=>el.textContent=ENTRIES.length);
+$$('.chip').forEach(c=>c.addEventListener('click',()=>{
+  $$('.chip').forEach(x=>x.setAttribute('aria-pressed','false'));
+  c.setAttribute('aria-pressed','true');
+  renderCards(c.dataset.cat);
+}));
+renderCards('all');
+
+/* errors */
+$('#errcards').innerHTML = ERRORS.map((e,i)=>`
+  <article class="card">
+    <button class="cardtop" aria-expanded="false">
+      <span class="idx">${i+1}</span>
+      <span><span class="ctitle">${e.t}</span><span class="ctag">${e.tb==='ok'?'Trial balance still agrees':'Trial balance will not agree'}</span></span>
+      <span class="caret">+</span>
+    </button>
+    <div class="body"><div class="bodyin"><div class="bodypad">
+      <span class="pill ${e.tb==='ok'?'tb-ok':'tb-no'}">${e.tb==='ok'?'No suspense account':'Suspense account needed'}</span>
+      <div class="scenario"><em>The error</em>${e.sc}</div>
+      ${journalHTML(e.lines,true)}
+      <div class="why"><b>The logic</b>${e.why}</div>
+    </div></div></div>
+  </article>`).join('');
+bindCards('#errcards');
+
+/* suspense panel */
+function errCardHTML(list, offset){
+  return list.map((e,i)=>`
+  <article class="card">
+    <button class="cardtop" aria-expanded="false">
+      <span class="idx">${i+1+offset}</span>
+      <span><span class="ctitle">${e.t}</span><span class="ctag">${e.tb==='ok'?'Trial balance still agrees':'Trial balance will not agree'}</span></span>
+      <span class="caret">+</span>
+    </button>
+    <div class="body"><div class="bodyin"><div class="bodypad">
+      <span class="pill ${e.tb==='ok'?'tb-ok':'tb-no'}">${e.tb==='ok'?'No suspense account':'Suspense account needed'}</span>
+      <div class="scenario"><em>The error</em>${e.sc}</div>
+      ${journalHTML(e.lines,true)}
+      <div class="why tips"><b>Tips to remember</b>${e.why}</div>
+    </div></div></article>`).join('');
+}
+$('#suspcards').innerHTML = errCardHTML(SUSPENSE,0);
+bindCards('#suspcards');
+$('#suspJournal').innerHTML = journalHTML(SUSP_JOURNAL,true);
+
+/* mcq */
+let mq=0, mCorrect=0, mTotal=0, mAnswered=false;
+function renderMcq(){
+  const q=MCQ[mq]; mAnswered=false;
+  $('#mcqPos').textContent=`Question ${mq+1} of ${MCQ.length}`;
+  $('#mcqFill').style.width=(mq/MCQ.length*100)+'%';
+  $('#mcqCard').innerHTML=`
+    <span class="paperref">${q.ref}</span>
+    <p class="qtext">${q.q}</p>
+    <div class="opts">${q.o.map((o,i)=>
+      `<button class="opt" data-i="${i}"><span class="ltr">${'ABCD'[i]}</span><span>${o}</span></button>`).join('')}</div>
+    <div id="explainSlot"></div>`;
+  $('#mcqCard').querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>answer(+b.dataset.i)));
+  $('#mcqNext').disabled=true;
+  $('#mcqNext').textContent = mq===MCQ.length-1 ? 'Finish' : 'Next question';
+}
+function answer(i){
+  if(mAnswered) return;
+  mAnswered=true; mTotal++;
+  const q=MCQ[mq];
+  const ok = i===q.a;
+  if(ok) mCorrect++;
+  $('#mcqCard').querySelectorAll('.opt').forEach(b=>{
+    const k=+b.dataset.i;
+    b.disabled=true;
+    if(k===q.a) b.classList.add('right');
+    else if(k===i) b.classList.add('wrong');
+    else b.classList.add('dim');
+  });
+  $('#explainSlot').innerHTML=`<div class="explain"><b>${ok?'Correct':'Answer is '+'ABCD'[q.a]}</b>${q.e}</div>`;
+  $('#mCorrect').textContent=mCorrect;
+  $('#mTotal').textContent=mTotal;
+  $('#mcqNext').disabled=false;
+}
+$('#mcqNext').addEventListener('click',()=>{
+  if(mq<MCQ.length-1){ mq++; renderMcq(); window.scrollTo({top:0,behavior:'smooth'}); }
+  else{
+    $('#mcqFill').style.width='100%';
+    $('#mcqPos').textContent='Set complete';
+    $('#mcqCard').innerHTML=`<div style="text-align:center;padding:14px 0">
+      <h3 style="font-family:Anton,sans-serif;font-size:26px;text-transform:uppercase;margin:0 0 8px">${mCorrect} out of ${MCQ.length}</h3>
+      <p style="color:var(--mute-dark);font-size:14px;margin:0">Every question above came from a Paper 1 between 2020 and 2025.</p></div>`;
+    $('#mcqNext').textContent='Start again';
+    $('#mcqNext').onclick=()=>{ mq=0;mCorrect=0;mTotal=0;$('#mCorrect').textContent=0;$('#mTotal').textContent=0;location.reload(); };
+  }
+});
+renderMcq();
+
+/* flip-card drill */
+const shuffle=a=>a.map(v=>[Math.random(),v]).sort((x,y)=>x[0]-y[0]).map(v=>v[1]);
+let deck=[], cur=null, known=0, seen=0, flipped=false, seenIds=new Set();
+
+const flipper=$('#flipper'), front=$('#front'), back=$('#back');
+
+function sizeCard(){
+  if(!document.body.contains(flipper)) return;
+  const h=Math.max(front.offsetHeight, back.offsetHeight, 260);
+  flipper.style.height=h+'px';
+}
+window.sizeCard=sizeCard;
+if(document.fonts&&document.fonts.ready) document.fonts.ready.then(()=>sizeCard());
+function newDeck(){
+  deck=shuffle([...DRILL.keys()]);
+  known=0; seen=0; seenIds=new Set();
+  $('#flipwrap').style.display='';
+  $('#selfmark').style.display='';
+  $('#markhint').style.display='';
+  showCard();
+}
+function showCard(){
+  if(!deck.length){ finish(); return; }
+  cur=DRILL[deck[0]];
+  flipped=false;
+  flipper.classList.remove('flipped');
+  $('#selfmark').classList.add('locked');
+  $('#markhint').textContent='Tap the card to flip it';
+
+  front.innerHTML=`
+    <div>
+      <p class="fkicker">Transaction</p>
+      <p class="ftext">${cur.q}</p>
+    </div>
+    <p class="fhint">Which account is debited, which is credited?</p>`;
+  back.innerHTML=`
+    <p class="bkicker">The journal</p>
+    ${journalHTML([{a:cur.d,s:'d'},{a:cur.c,s:'c'}],false)}
+    <div class="why tips"><b>Tips to remember</b>${cur.fix}</div>`;
+
+  requestAnimationFrame(()=>{ sizeCard(); updateStats(); });
+}
+function flip(){
+  flipped=!flipped;
+  flipper.classList.toggle('flipped',flipped);
+  if(flipped){
+    if(!seenIds.has(deck[0])){ seenIds.add(deck[0]); seen++; }
+    $('#selfmark').classList.remove('locked');
+    $('#markhint').textContent='Did you get both sides right?';
+  }else{
+    $('#selfmark').classList.add('locked');
+    $('#markhint').textContent='Tap the card to flip it';
+  }
+  updateStats();
+}
+function mark(gotIt){
+  if(!flipped) return;
+  if(gotIt){ known++; deck.shift(); }
+  else { const c=deck.shift(); deck.splice(Math.min(3,deck.length),0,c); }
+  showCard();
+}
+function updateStats(){
+  $('#sCorrect').textContent=known;
+  $('#sTotal').textContent=seen;
+  $('#sLeft').textContent=deck.length;
+  $('#deckPos').textContent=deck.length?`Card ${known+1} of ${known+deck.length}`:'Deck complete';
+  const total=known+deck.length;
+  $('#progressFill').style.width=(total?known/total*100:100)+'%';
+}
+function finish(){
+  $('#flipwrap').innerHTML=`<div class="deckdone">
+    <h3>Deck complete</h3>
+    <p>You worked through all ${DRILL.length} entries. Cards you flagged came back until you had them.</p>
+    <button class="btn primary" id="restart">Start again</button>
+  </div>`;
+  $('#selfmark').style.display='none';
+  $('#markhint').style.display='none';
+  $('#restart').addEventListener('click',()=>{
+    $('#flipwrap').innerHTML=`<div class="flipper" id="flipper"><div class="face front" id="front"></div><div class="face back" id="back"></div></div>`;
+    location.reload();
+  });
+  updateStats();
+}
+
+flipper.addEventListener('click',flip);
+flipper.setAttribute('tabindex','0');
+flipper.setAttribute('role','button');
+flipper.addEventListener('keydown',e=>{ if(e.key===' '||e.key==='Enter'){e.preventDefault();flip();} });
+$('#gotBtn').addEventListener('click',()=>mark(true));
+$('#againBtn').addEventListener('click',()=>mark(false));
+$('#reshuffle').addEventListener('click',newDeck);
+window.addEventListener('resize',()=>{ if(cur) sizeCard(); });
+newDeck();
+</script>
+</body>
+</html>
