@@ -1516,6 +1516,28 @@ body{touch-action:manipulation}
 .board.docked .slide{padding-bottom:28px!important}
 .board.docked #dock{display:none!important}
 
+/* ---- T-accounts in Format Booklet style (TAK reference, 26 Oct) ---- */
+#board.m .paper.tacct{border-radius:0;box-shadow:none;padding:0 0 2px;background:#fff;--tk:2.5px;--ln:1px;--ink2:#111}
+#board.m .paper.tacct .lt{display:block!important;text-align:center;padding:4px 6px 5px!important;border:0;background:#fff!important}
+#board.m .paper.tacct .lt .dc{display:none}
+#board.m .paper.tacct .lt .nm{font-family:'Myriad Pro','Source Sans 3','Segoe UI',sans-serif;font-weight:700;font-size:15px;letter-spacing:0;text-transform:none;color:var(--ink2);line-height:1.2;padding:0}
+#board.m .paper.tacct .tw{overflow:visible;border:var(--tk) solid var(--ink2)}
+#board.m .paper.tacct .tw::after{width:var(--tk);left:calc(50% - var(--tk)/2);background:var(--ink2)}
+#board.m .paper.tacct table{font-family:'Myriad Pro','Source Sans 3','Segoe UI',sans-serif;font-size:10px!important;line-height:1.5;color:var(--ink2);border-collapse:collapse}
+#board.m .paper.tacct th,#board.m .paper.tacct td{border:var(--ln) solid var(--ink2)!important;background:#fff!important;color:var(--ink2)!important;height:auto;padding:4px 6px!important;vertical-align:middle;line-height:1.5}
+#board.m .paper.tacct thead th{font-size:10px!important;font-weight:400;letter-spacing:0;text-transform:none;text-align:center}
+#board.m .paper.tacct thead th.n{font-weight:700}
+#board.m .paper.tacct thead th.blank{color:transparent!important}
+#board.m .paper.tacct td{font-weight:400}
+#board.m .paper.tacct td.dtl,#board.m .paper.tacct td.dtl.dr,#board.m .paper.tacct td.dtl.cr{font-weight:400;color:var(--ink2)!important;padding-left:6px!important}
+#board.m .paper.tacct td.n,#board.m .paper.tacct th.n{text-align:center;padding:4px 5px!important;font-weight:400}
+#board.m .paper.tacct th.mid,#board.m .paper.tacct td.mid{padding-left:6px!important}
+#board.m .paper.tacct tbody tr:nth-child(even) td{background:#fff!important}
+#board.m .paper.tacct tr.tot td{border-top:var(--tk) solid var(--ink2)!important;border-bottom:var(--tk) solid var(--ink2)!important}
+#board.m .paper.tacct tr.tot td.n:not(:empty){font-weight:700;border-bottom:4px double var(--ink2)!important}
+#board.m .paper.tacct td.hi{background:var(--figure-hl)!important;font-weight:700}
+#board.m .paper.tacct [data-s].hid,#board.m .paper.tacct tr.hid td{border-color:var(--ink2)!important}
+
 /* ---- edge-to-edge board + header-free full screen ---- */
 @media (max-width:420px){#tmrBtn,#fsBtn{display:grid} .hdr{gap:6px} .ib{width:36px;height:36px} .brand b,.brand em{font-size:17px}}
 @media (max-width:430px){.score{display:none}}
@@ -3178,5 +3200,6 @@ SYNC.on(m=>{
 updScore();
 if(location.hash==='#projector'){go(cur);startAudience()}else go(cur);
 requestAnimationFrame(fit);setPresentClass();
+new MutationObserver(()=>{stage.querySelectorAll('.paper.tacct thead th').forEach(th=>{if(th.textContent.trim()==='Details')th.classList.add('blank')})}).observe(stage,{childList:true,subtree:true});
 </script>
 </body></html>
