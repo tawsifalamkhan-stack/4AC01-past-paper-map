@@ -1504,13 +1504,14 @@ body{touch-action:manipulation}
 
 /* ---- TAK 26 Oct: ledger colours, T-account size, no Next button, no mascots ---- */
 :is(#app,#pv) #board.m .paper td.dtl.dr,:is(#app,#pv) #board.m .paper td.dtl.cr,:is(#app,#pv) #board.m .jdoc td.dr,:is(#app,#pv) #board.m .jdoc td.cr{color:var(--ink)!important}
-#board.m .paper.tacct table,#board.m .paper table:has(td.mid){font-size:10px!important;line-height:1.25}
+#board.m .paper.tacct table,#board.m .paper table:has(td.mid){font-size:10px!important;line-height:1.5}
+#board.m .paper.tacct td,#board.m .paper table:has(td.mid) td{line-height:1.5!important}
+#board.m .paper:has(td.mid) .lt{font-size:15px}
 #board.m .paper table:has(td.mid) th{font-size:10px;padding:4px 6px}
 #board.m .paper table:has(td.mid) td{height:24px;padding:3px 6px}
 #board.m .paper.tacct td{min-height:24px;padding:3px 5px!important}
-#board.m .paper.tacct .lt .nm{font-size:13px}
+#board.m .paper.tacct .lt .nm{font-size:15px}
 #board.m .paper.tacct .lt .dc{font-size:10px}
-#nextBtn{display:none!important}
 #dock{display:none!important}
 .board.docked .slide{padding-bottom:28px!important}
 .board.docked #dock{display:none!important}
@@ -1520,17 +1521,22 @@ body{touch-action:manipulation}
 @media (max-width:430px){.score{display:none}}
 .stagewrap{padding:0}
 #board .board,.board{border-radius:0}
-body.present #app{grid-template-rows:0 minmax(0,1fr) var(--ftr)}
 body.present .hdr{visibility:hidden;overflow:hidden;border:0;padding:0;height:0}
-body.present .ftr{visibility:visible;border-top:1px solid #000}
+#fsnav{display:none}
+body.present #fsnav{display:flex;position:fixed;left:10px;right:10px;bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:55;justify-content:space-between;align-items:center;pointer-events:none}
+body.present #fsnav .nb{pointer-events:auto;height:48px;background:rgba(32,31,31,.92);border-color:#5a5858;box-shadow:0 6px 18px rgba(0,0,0,.45)}
+body.present #fsnav .nb.go{background:var(--red);border-color:var(--red);min-width:120px;padding:0 18px;font-size:16px}
+body.present #fsnav .nb.go.lock{background:#4a4848;border-color:#4a4848;color:var(--chalk-2)}
+body.present #fsnav .nb .lbl{display:inline!important}
+body.present #board .slide{padding-bottom:84px!important}
+body.present #brandmark{bottom:76px}
 body.present #fsctl{display:flex;opacity:1;top:max(8px,env(safe-area-inset-top,0px));right:8px;bottom:auto;left:auto;padding:4px;gap:4px;background:rgba(20,20,20,.72);transition:none}
 body.present #fsctl button{height:32px;min-width:32px;width:32px;padding:0;background:rgba(42,41,41,.9);position:relative}
 body.present #fsctl button.on{background:var(--red);border-color:var(--red)}
 body.present #board .slide>header.sh .eyebrow{padding-right:160px}
 body.present #board .cine .vctl{top:50px!important}
 body.present #fsctl svg{width:17px;height:17px}
-#fsctl #fsPrev,#fsctl #fsNext,#fsctl #fsCount{display:none}
-body.present .toast{bottom:calc(var(--ftr) + 14px + env(safe-area-inset-bottom,0px))}
+body.present .toast{bottom:calc(74px + env(safe-area-inset-bottom,0px))}
 #board.m .slide.xbig .sh{flex-direction:column!important;gap:4px;align-items:flex-start}
 #board.m .slide.xbig .sh h2{white-space:normal;font-size:30px}
 #board.m .slide.xbig .sh .eyebrow{white-space:normal;order:-2}
@@ -1580,7 +1586,8 @@ body.present .toast{bottom:calc(var(--ftr) + 14px + env(safe-area-inset-bottom,0
 </div>
 <div class="drawer" id="drawer"><div class="scrim" id="scrim"></div><nav aria-label="Chapters"><h3>Flashback chapters</h3><div id="toc"></div>
 <div class="keys">Swipe left or right, or use <b>Back</b> and <b>Next</b>.<br>Tap a card to flip it. Tap an answer to check it.<br>Pen icon: draw on the slide. Clock icon: 30 / 60 second timer.<br>Keyboard still works: <kbd>→</kbd> next, <kbd>←</kbd> back, <kbd>R</kbd> reveal all.</div></nav></div>
-<div id="fsctl" aria-label="Slide controls"><button id="fsPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><span id="fsCount"></span><button id="fsNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button><button id="fsMenu" aria-label="Chapters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button><button id="fsPen" aria-label="Chalk pen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/></svg></button><button id="fsTimer" aria-label="Timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg></button><button id="fsExit" aria-label="Exit full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5"/></svg></button></div>
+<div id="fsctl" aria-label="Slide controls"><button id="fsMenu" aria-label="Chapters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button><button id="fsPen" aria-label="Chalk pen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/></svg></button><button id="fsTimer" aria-label="Timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg></button><button id="fsExit" aria-label="Exit full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5"/></svg></button></div>
+<div id="fsnav" aria-label="Slide navigation"><button class="nb" id="fsPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg><span class="lbl">Back</span></button><button class="nb go" id="fsNext" aria-label="Next"><span class="lbl" id="fsNextLbl">Next</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button></div>
 <div id="blackout" hidden></div>
 <div id="audGate" hidden><div class="ag"><div class="eyebrow">Projector screen</div><h2>This window follows your presenter view</h2><p class="lede">Drag this window onto the projector, then click below to fill the screen.</p><button class="startbtn" id="audGo">Fill the projector screen</button></div></div>
 <div id="pvAsk" hidden><span>Presenter view is open in another window.</span><button class="sbtn red" id="pvAskYes">Use this window as the projector screen</button><button class="sbtn" id="pvAskNo">No</button></div>
@@ -2731,7 +2738,7 @@ function applyStep(animate){
 function updFooter(){
   const s=FLAT[cur]; const lbl=$('#nextLbl'), nb=$('#nextBtn');
   nb.classList.toggle('lock',gate);
-  lbl.textContent=gate?'Answer first':(step<maxStep?'Reveal':(cur===FLAT.length-1?'Finish':'Next'));
+  lbl.textContent=gate?'Answer first':(step<maxStep?'Reveal':(cur===FLAT.length-1?'Finish':'Next'));const fl=$('#fsNextLbl');if(fl){fl.textContent=lbl.textContent;$('#fsNext').classList.toggle('lock',gate)}
   const d=$('#dots'); d.innerHTML=maxStep?Array.from({length:maxStep+1},(_,i)=>`<i class="${i<=step?'on':''}"></i>`).join(''):'';
   const inCh=CH[s.ci].slides.length;
   $('#railL').textContent=s.ci?`${s.ci}. ${CH[s.ci].name}`:'Start';
