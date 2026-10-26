@@ -1501,6 +1501,20 @@ body{touch-action:manipulation}
 #board.m .docpaper{max-width:none;transform:none}
 #board.m .cdwn .d{font-size:64px}
 
+
+/* ---- TAK 26 Oct: ledger colours, T-account size, no Next button, no mascots ---- */
+:is(#app,#pv) #board.m .paper td.dtl.dr,:is(#app,#pv) #board.m .paper td.dtl.cr,:is(#app,#pv) #board.m .jdoc td.dr,:is(#app,#pv) #board.m .jdoc td.cr{color:var(--ink)!important}
+#board.m .paper.tacct table,#board.m .paper table:has(td.mid){font-size:10px!important;line-height:1.25}
+#board.m .paper table:has(td.mid) th{font-size:10px;padding:4px 6px}
+#board.m .paper table:has(td.mid) td{height:24px;padding:3px 6px}
+#board.m .paper.tacct td{min-height:24px;padding:3px 5px!important}
+#board.m .paper.tacct .lt .nm{font-size:13px}
+#board.m .paper.tacct .lt .dc{font-size:10px}
+#nextBtn{display:none!important}
+#dock{display:none!important}
+.board.docked .slide{padding-bottom:28px!important}
+.board.docked #dock{display:none!important}
+
 /* ---- edge-to-edge board + header-free full screen ---- */
 @media (max-width:420px){#tmrBtn,#fsBtn{display:grid} .hdr{gap:6px} .ib{width:36px;height:36px} .brand b,.brand em{font-size:17px}}
 @media (max-width:430px){.score{display:none}}
