@@ -1462,6 +1462,69 @@ body{touch-action:manipulation}
 #board.m .slide>.col>.note:nth-last-child(-n+4),#board.m .slide>.note:nth-last-child(-n+4){margin-right:0}
 #bigTimer{font-size:40px;right:12px;top:12px;padding:5px 12px}
 @media (max-width:760px){ .nb .lbl{display:inline} #prevBtn .lbl{display:none} }
+
+/* ---- later chapters: ledgers, exam documents, calculators ---- */
+#board.m .docs,#board.m .dgrid,#board.m .xpanel,#board.m .fmtw,#board.m .fmtw.cur,#board.m .adjw,#board.m .tpost,#board.m .sort3,#board.m .shelf,#board.m .lrow{grid-template-columns:minmax(0,1fr)!important;gap:14px}
+#board.m .dtabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+#board.m .dtabs button{font-size:13px;padding:7px 6px;white-space:normal;line-height:1.15}
+#board.m .xmini{width:100%}
+#board.m .xmini .xdoc{zoom:.72}
+#board.m .xfit{justify-content:flex-start;overflow:visible}
+#board.m .xdoc{width:620px!important}
+#board.m .xdoc .xcols,#board.m .xdoc.cbx .xcols,#board.m .xdoc.pcx .xcols,#board.m .xdoc.ctl .ccols{grid-template-columns:minmax(0,1fr)!important;gap:16px}
+#board.m .xdoc .xright{padding-top:30px}
+#board.m .slide.pcx-pad .xdoc{margin-right:0}
+#board.m .adjw{gap:16px}
+#board.m .adjw svg.lks,#board.m .adjw .lkl{display:none}
+#board.m .journey{grid-template-columns:minmax(0,1fr);gap:10px}
+#board.m .jcard:not(:last-child)::after,#board.m .jcard:not(:last-child)::before{display:none}
+#board.m .invflow{flex-wrap:wrap;gap:8px}
+#board.m .invflow .ifc{font-size:18px;padding:8px 14px}
+#board.m .invflow .iar{font-size:26px}
+#board.m .lrow{gap:10px}
+#board.m .lfx{flex-wrap:wrap;font-size:20px!important;row-gap:6px}
+#board.m .lfx.sub{font-size:16px!important}
+#board.m .tacct td{white-space:normal}
+#board.m .paper.tacct.big2 table,#board.m .paper.big table{font-size:16px}
+#board.m .paper.big td{height:34px;padding:4px 8px}
+#board.m .slide.fmt{padding:18px 20px 16px}
+#board.m .slide.fmt .sh h2{font-size:34px}
+#board.m .fmtw .fmtn .note{font-size:17px}
+#board.m .mms{font-size:20px;padding:10px 14px;gap:10px}
+#board.m .mms span{width:34px;height:34px;font-size:18px}
+#board.m .mmw>.lfx{font-size:22px}
+#board.m .vanstage{max-width:none}
+#board.m .valtag{font-size:24px}
+#board.m .legend li{font-size:14px}
+#board.m .doclist{flex-direction:row;flex-wrap:wrap}
+#board.m .doclist button{flex:1 1 44%;font-size:15px;padding:8px 10px}
+#board.m .docpaper{max-width:none;transform:none}
+#board.m .cdwn .d{font-size:64px}
+
+/* ---- edge-to-edge board + header-free full screen ---- */
+@media (max-width:420px){#tmrBtn,#fsBtn{display:grid} .hdr{gap:6px} .ib{width:36px;height:36px} .brand b,.brand em{font-size:17px}}
+@media (max-width:430px){.score{display:none}}
+.stagewrap{padding:0}
+#board .board,.board{border-radius:0}
+body.present #app{grid-template-rows:0 minmax(0,1fr) var(--ftr)}
+body.present .hdr{visibility:hidden;overflow:hidden;border:0;padding:0;height:0}
+body.present .ftr{visibility:visible;border-top:1px solid #000}
+body.present #fsctl{display:flex;opacity:1;top:max(8px,env(safe-area-inset-top,0px));right:8px;bottom:auto;left:auto;padding:4px;gap:4px;background:rgba(20,20,20,.72);transition:none}
+body.present #fsctl button{height:32px;min-width:32px;width:32px;padding:0;background:rgba(42,41,41,.9);position:relative}
+body.present #fsctl button.on{background:var(--red);border-color:var(--red)}
+body.present #board .slide>header.sh .eyebrow{padding-right:160px}
+body.present #board .cine .vctl{top:50px!important}
+body.present #fsctl svg{width:17px;height:17px}
+#fsctl #fsPrev,#fsctl #fsNext,#fsctl #fsCount{display:none}
+body.present .toast{bottom:calc(var(--ftr) + 14px + env(safe-area-inset-bottom,0px))}
+#board.m .slide.xbig .sh{flex-direction:column!important;gap:4px;align-items:flex-start}
+#board.m .slide.xbig .sh h2{white-space:normal;font-size:30px}
+#board.m .slide.xbig .sh .eyebrow{white-space:normal;order:-2}
+#board.m .rvchain{flex-wrap:wrap;gap:8px 12px;justify-content:flex-start;margin-top:8px}
+#board.m .rvchain .rt{gap:4px}
+#board.m .rvchain .rl{font-size:15px}
+#board.m .rvchain .rt b{font-size:24px;line-height:1.15}
+#board.m .rvchain .ro{font-size:24px}
 </style>
 
 <div id="app">
@@ -1503,7 +1566,7 @@ body{touch-action:manipulation}
 </div>
 <div class="drawer" id="drawer"><div class="scrim" id="scrim"></div><nav aria-label="Chapters"><h3>Flashback chapters</h3><div id="toc"></div>
 <div class="keys">Swipe left or right, or use <b>Back</b> and <b>Next</b>.<br>Tap a card to flip it. Tap an answer to check it.<br>Pen icon: draw on the slide. Clock icon: 30 / 60 second timer.<br>Keyboard still works: <kbd>→</kbd> next, <kbd>←</kbd> back, <kbd>R</kbd> reveal all.</div></nav></div>
-<div id="fsctl" aria-label="Slide controls"><button id="fsPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><span id="fsCount"></span><button id="fsNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button><button id="fsPen" aria-label="Chalk pen">Pen</button><button id="fsExit" aria-label="Exit full screen">Exit</button></div>
+<div id="fsctl" aria-label="Slide controls"><button id="fsPrev" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><span id="fsCount"></span><button id="fsNext" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg></button><button id="fsMenu" aria-label="Chapters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg></button><button id="fsPen" aria-label="Chalk pen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/></svg></button><button id="fsTimer" aria-label="Timer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2M9 2h6"/></svg></button><button id="fsExit" aria-label="Exit full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 4H4v5M15 4h5v5M9 20H4v-5M15 20h5v-5"/></svg></button></div>
 <div id="blackout" hidden></div>
 <div id="audGate" hidden><div class="ag"><div class="eyebrow">Projector screen</div><h2>This window follows your presenter view</h2><p class="lede">Drag this window onto the projector, then click below to fill the screen.</p><button class="startbtn" id="audGo">Fill the projector screen</button></div></div>
 <div id="pvAsk" hidden><span>Presenter view is open in another window.</span><button class="sbtn red" id="pvAskYes">Use this window as the projector screen</button><button class="sbtn" id="pvAskNo">No</button></div>
@@ -2789,7 +2852,7 @@ function fitDocs(scope){
     let top=(c.getBoundingClientRect().top-stage.getBoundingClientRect().top)/k+stage.scrollTop;
     const big=!!c.closest('.xbig');
     if(big){let t=0,el=c;while(el&&el!==stage){t+=el.offsetTop;el=el.offsetParent}if(el===stage)top=t}
-    const availH=stage.clientHeight-top-(big?60:58), availW=c.clientWidth||600, mz=parseFloat(c.dataset.maxz||1.1);
+    const availH=1e9, availW=c.clientWidth||496, mz=parseFloat(c.dataset.maxz||1.1);
     if(big){ /* try several native widths; keep the one that renders largest */
       let best={z:0,w:0};x.style.width='';const w0=x.offsetWidth;
       for(let w=w0;w>=Math.round(w0*.62);w-=30){x.style.width=w+'px';const z=Math.min(availW/x.offsetWidth,availH/x.offsetHeight,mz);if(z>best.z+.004)best={z,w}}
@@ -2902,11 +2965,11 @@ $('#nextBtn').onclick=next;$('#prevBtn').onclick=prev;
 
 /* ---------- pen ---------- */
 const pen=$('#pen'),pctx=pen.getContext('2d');let penOn=false,drawing=false,penCol='#ffffff',lastP=null;
-function sizePen(){pen.width=1080;pen.height=1920;pen.style.width='540px';pen.style.height='960px';pctx.setTransform(2,0,0,2,0,0);pctx.lineCap='round';pctx.lineJoin='round'}
+function sizePen(bh=960){pen.width=1080;pen.height=bh*2;pen.style.width='540px';pen.style.height=bh+'px';pctx.setTransform(2,0,0,2,0,0);pctx.lineCap='round';pctx.lineJoin='round'}
 sizePen();
 function clearPen(){pctx.clearRect(0,0,pen.width,pen.height)}
 function togglePen(){penOn=!penOn;pen.classList.toggle('live',penOn);$('#pentools').classList.toggle('live',penOn);$('#penBtn').classList.toggle('on',penOn);if(penOn)toast('Chalk pen on. Draw with a finger. Tap the pen again to stop.')}
-const pt=e=>{const r=pen.getBoundingClientRect();return{x:(e.clientX-r.left)/r.width*540,y:(e.clientY-r.top)/r.height*960}};
+const pt=e=>{const r=pen.getBoundingClientRect();return{x:(e.clientX-r.left)/r.width*540,y:(e.clientY-r.top)/r.height*(pen.height/2)}};
 function penSeg(a,b,c){pctx.strokeStyle=c;pctx.globalAlpha=.92;pctx.lineWidth=c==='#ffffff'?3.2:3.6;pctx.beginPath();pctx.moveTo(a.x,a.y);pctx.lineTo(b.x,b.y);pctx.stroke()}
 pen.addEventListener('pointerdown',e=>{if(!penOn)return;drawing=true;lastP=pt(e);pen.setPointerCapture(e.pointerId)});
 pen.addEventListener('pointermove',e=>{if(!drawing)return;const p=pt(e);penSeg(lastP,p,penCol);if(ROLE==='presenter')SYNC.send({t:'pen',a:[lastP.x,lastP.y,p.x,p.y],c:penCol});lastP=p});
@@ -2916,16 +2979,27 @@ $('#penClear').onclick=()=>{clearPen();if(ROLE==='presenter')SYNC.send({t:'pencl
 
 /* ---------- timer ---------- */
 let tmr=null,tLeft=0,tMode=0;
-function cycleTimer(){tMode=(tMode+1)%3;clearInterval(tmr);const b=$('#tmrBtn');b.querySelector('.tm')?.remove();b.classList.remove('on');const bt=$('#bigTimer');bt.hidden=true;
+function cycleTimer(){tMode=(tMode+1)%3;clearInterval(tmr);const b=$('#tmrBtn');b.querySelector('.tm')?.remove();b.classList.remove('on');$('#fsTimer').classList.remove('on');const bt=$('#bigTimer');bt.hidden=true;
   if(ROLE==='presenter')SYNC.send({t:'timer',m:tMode});$('#pvTimer')&&$('#pvTimer').classList.toggle('on',!!tMode);
   if(!tMode){return}
   bt.hidden=false;bt.textContent=tMode===1?30:60;
-  tLeft=tMode===1?30:60;b.classList.add('on');const badge=document.createElement('span');badge.className='tm';badge.textContent=tLeft;b.appendChild(badge);
+  tLeft=tMode===1?30:60;b.classList.add('on');const badge=document.createElement('span');badge.className='tm';badge.textContent=tLeft;b.appendChild(badge);$('#fsTimer').classList.add('on');
   tmr=setInterval(()=>{tLeft--;badge.textContent=tLeft;bt.textContent=tLeft;if(tLeft<=0){clearInterval(tmr);badge.remove();b.classList.remove('on');bt.hidden=true;$('#pvTimer')&&$('#pvTimer').classList.remove('on');tMode=0;toast('Time’s up! Pens down.');board.classList.remove('timerflash');void board.offsetWidth;board.classList.add('timerflash')}},1000)}
 $('#tmrBtn').onclick=cycleTimer;
 
 /* ---------- full screen ---------- */
-function toggleFS(){try{if(document.fullscreenElement)document.exitFullscreen();else document.documentElement.requestFullscreen().catch(()=>toast('Full screen is not available here.'))}catch(e){toast('Full screen is not available here.')}}
+const STANDALONE=()=>{try{return matchMedia('(display-mode: standalone)').matches||navigator.standalone===true}catch(e){return false}};
+let hdrWanted=false;
+function focusOn(){hdrWanted=false;document.body.classList.add('focus');setPresentClass()}
+function focusOff(){document.body.classList.remove('focus');setPresentClass()}
+function toggleFS(){
+  if(document.fullscreenElement){try{document.exitFullscreen()}catch(e){}return}
+  if(document.body.classList.contains('focus')){focusOff();return}
+  const el=document.documentElement,req=el.requestFullscreen||el.webkitRequestFullscreen;
+  if(STANDALONE()){hdrWanted=false;setPresentClass();return}
+  if(!req){focusOn();return}
+  try{const p=req.call(el);if(p&&p.catch)p.catch(focusOn)}catch(e){focusOn()}
+}
 $('#fsBtn').onclick=toggleFS;
 
 /* ---------- keys + swipe ---------- */
@@ -2947,20 +3021,20 @@ addEventListener('keydown',e=>{
   else if(k==='Home')go(0); else if(k==='End')go(FLAT.length-1);
 });
 let tx0=null,ty0=null;
-stage.addEventListener('touchstart',e=>{if(penOn||e.target.closest('input,.tw,.qfch'))return;tx0=e.touches[0].clientX;ty0=e.touches[0].clientY},{passive:true});
+stage.addEventListener('touchstart',e=>{if(penOn||e.target.closest('input,.tw,.qfch,.xfit,.adjw'))return;tx0=e.touches[0].clientX;ty0=e.touches[0].clientY},{passive:true});
 stage.addEventListener('touchend',e=>{if(tx0==null)return;const dx=e.changedTouches[0].clientX-tx0,dy=e.changedTouches[0].clientY-ty0;tx0=null;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)*1.6){dx<0?next():prev()}},{passive:true});
 
 /* ================= PRESENTATION: fit, full screen, presenter + projector sync ================= */
 let ROLE='normal';
 const frame=$('#frame');
-function fit(){const w=frame.clientWidth,h=frame.clientHeight;if(!w||!h)return;board.style.setProperty('--k',Math.min(w/540,h/960))}
+function fit(){const w=frame.clientWidth,h=frame.clientHeight;if(!w||!h)return;const k=w/540;const bh=Math.max(600,Math.round(h/k));board.style.setProperty('--k',k);if(board.offsetHeight!==bh){board.style.height=bh+'px';sizePen(bh)}}
 new ResizeObserver(fit).observe(frame);
-function setPresentClass(){document.body.classList.toggle('present',!!document.fullscreenElement&&ROLE!=='presenter'||ROLE==='audience');requestAnimationFrame(fit)}
+function setPresentClass(){const on=(!!document.fullscreenElement||document.body.classList.contains('focus')||(STANDALONE()&&!hdrWanted))&&ROLE!=='presenter'||ROLE==='audience';document.body.classList.toggle('present',on);requestAnimationFrame(fit)}
 document.addEventListener('fullscreenchange',setPresentClass);
 // floating controls in full screen
 const fsctl=$('#fsctl');let fsT=null;
 addEventListener('mousemove',()=>{if(!document.body.classList.contains('present'))return;fsctl.classList.add('show');document.body.style.cursor='';clearTimeout(fsT);fsT=setTimeout(()=>{fsctl.classList.remove('show');if(!penOn)document.body.style.cursor='none'},2200)});
-$('#fsPrev').onclick=prev;$('#fsNext').onclick=next;$('#fsPen').onclick=togglePen;$('#fsExit').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen()};
+$('#fsPrev').onclick=prev;$('#fsNext').onclick=next;$('#fsPen').onclick=togglePen;$('#fsMenu').onclick=openMenu;$('#fsTimer').onclick=cycleTimer;$('#fsExit').onclick=()=>{if(document.fullscreenElement){try{document.exitFullscreen()}catch(e){}}else if(document.body.classList.contains('focus'))focusOff();else{hdrWanted=true;setPresentClass()}};
 // black screen
 function toggleBlack(force){const b=$('#blackout');const on=force!=null?force:b.hidden;b.hidden=!on;$('#pvBlack')&&$('#pvBlack').classList.toggle('on',on);if(ROLE==='presenter'){b.hidden=true;SYNC.send({t:'black',on})}}
 /* --- sync bus: BroadcastChannel + localStorage fallback --- */
@@ -3082,6 +3156,6 @@ SYNC.on(m=>{
 
 updScore();
 if(location.hash==='#projector'){go(cur);startAudience()}else go(cur);
-requestAnimationFrame(fit);
+requestAnimationFrame(fit);setPresentClass();
 </script>
 </body></html>
